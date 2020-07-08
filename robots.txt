@@ -1,0 +1,50 @@
+User-agent: *
+Disallow: /login
+Disallow: /admin
+Disallow: /cart
+Disallow: /search
+Disallow: /*?entertainment
+Disallow: /*?entertainment/entertainment/
+Disallow: /test
+Disallow: *index.php
+Disallow: */?
+Disallow: /yaml
+Disallow: *?view
+Disallow: /furnitura-dvernay?
+Disallow: *&view
+Disallow: /pokrytiya
+#Disallow: /?range_price=
+
+Disallow: /dacha-otdih/stoli
+Disallow: /dacha-otdih/styl
+
+Disallow: /dveri-mejkomnatnie/massiv/stroidetali-vega-4-cho
+Disallow: */mejkomnatnye-dveri
+
+User-agent: Yandex
+Disallow: /login
+Disallow: /admin
+Disallow: /cart
+Disallow: /search
+Disallow: /*?entertainment
+Disallow: /*?entertainment/entertainment/
+Disallow: /test
+Disallow: *index.php
+Disallow: */?
+Disallow: *?view
+Disallow: /furnitura-dvernay?
+Disallow: *&view
+Disallow: /pokrytiya
+#Disallow: *?range_price=
+
+Disallow: /dacha-otdih/stoli
+Disallow: /dacha-otdih/styl
+
+Disallow: /dveri-mejkomnatnie/massiv/stroidetali-vega-4-cho
+Disallow: */mejkomnatnye-dveri
+Disallow: /mejkomnatnye-dveri/massiv/dveri-masiv-olha/massiv-olha-k6
+
+Disallow: /nejiya/2100000100300120s5
+
+sitemap: https://budynak.by/sitemap
+Host: https://budynak.by

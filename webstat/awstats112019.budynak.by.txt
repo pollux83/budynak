@@ -1,0 +1,2336 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201911 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.budynak.by.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1993                
+POS_TIME 2681                
+POS_VISITOR 24346               
+POS_DAY 61452               
+POS_DOMAIN 3770                
+POS_LOGIN 4006                
+POS_ROBOT 4161                
+POS_WORMS 5723                
+POS_EMAILSENDER 5854                
+POS_EMAILRECEIVER 5997                
+POS_SESSION 61698               
+POS_SIDER 61910               
+POS_FILETYPES 6132                
+POS_DOWNLOADS 6375                
+POS_OS 6423                
+POS_BROWSER 6772                
+POS_SCREENSIZE 9995                
+POS_UNKNOWNREFERER 10069               
+POS_UNKNOWNREFERERBROWSER 10452               
+POS_ORIGIN 10693               
+POS_SEREFERRALS 10840               
+POS_PAGEREFS 11242               
+POS_SEARCHWORDS 11522               
+POS_KEYWORDS 11861               
+POS_MISC 2343                
+POS_ERRORS 12113               
+POS_CLUSTER 3862                
+POS_SIDER_404 12314               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191201000056 19022 4323303 18078582120907
+FirstTime 20191125033800
+LastTime 20191130235738
+LastUpdate 20191201000111 977 0 976 0 0
+TotalVisits 696                 
+TotalUnique 654                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 1037                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 801 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 104 768 21546974 2544 3299 193486087
+1 66 408 13523550 2906 3607 198056431
+2 50 262 9449162 2799 3556 206993313
+3 66 378 9235366 3287 4108 229796474
+4 42 112 5378521 2277 3088 178056729
+5 54 148 6163082 2771 3642 208952878
+6 74 608 17735569 2128 2936 169174424
+7 169 1349 35439579 2098 3154 213229589
+8 137 1283 45084220 2334 3428 230320184
+9 158 1632 50906531 2633 3806 238136994
+10 213 2287 54627304 3526 4735 302776667
+11 164 1366 51134140 2431 3605 211134929
+12 244 2270 57364075 2351 3319 203764649
+13 164 1509 52386363 3899 5029 282081376
+14 204 2174 60105415 2159 3046 179779802
+15 286 3126 101862987 2809 4051 245341341
+16 252 2587 72082099 3256 4196 216981159
+17 272 2186 90017856 2650 3487 181351731
+18 204 1788 47411670 2081 2816 155172739
+19 284 2224 77303389 2370 3110 173147033
+20 370 4067 115745985 2521 3661 202600885
+21 363 4119 117656736 4489 5405 260642571
+22 402 3692 120274586 3188 4012 219944498
+23 304 3858 132128341 2992 3984 198953519
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4646 44201 1364563500
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 34
+YandexBot/ 25650 1663620687 20191130234955 248
+AhrefsBot/ 12108 598322296 20191130235827 48
+Googlebot/ 8783 449648893 20191130235719 32
+MJ12bot/ 8004 417050477 20191130203532 150
+Googlebot\-Image/ 5956 843771282 20191130232148 0
+BLEXBot/ 5382 276787352 20191126041105 78
+bingbot/ 2624 166763875 20191130235712 102
+SemrushBot/ 2116 77892859 20191130235936 646
+YandexMetrika/ 1926 103265084 20191130235636 0
+Mail\.RU_Bot/ 1354 240073457 20191130235808 136
+(firefox/)([0-9]\.|[0-1][0]\.) 4 227982 20191125220131 0
+no_user_agent 10 807691 20191130001617 2
+Dalvik/ 6 310349 20191127095432 0
+DotBot/ 88 7270236 20191130221946 16
+bingpreview 96 1051024 20191130224316 0
+msnbot/ 302 13685187 20191130230014 2
+Apache\-HttpClient/ 80 4438755 20191129095716 0
+YandexImages/ 980 71425184 20191130234439 0
+^mozilla\/5\.0$ 2 0 20191125221332 0
+crawl 92 7146678 20191128152036 0
+YandexMobileBot/ 266 12101423 20191130221221 0
+seokicks\.de 20 913926 20191125091014 2
+LinkedInBot/ 2 29408 20191127150523 0
+360Spider 6 333757 20191129230136 0
+CFNetwork 2 29408 20191127214025 0
+baidu 66 3489143 20191129115638 0
+unknown 20 790 20191130121736 20
+Sogou[\x20]web[\x20]spider/ 2 110959 20191128214634 0
+DuckDuckGo\-Favicons\-Bot/ 6 332920 20191127224243 0
+link 298 15887333 20191130032954 0
+favicon 116 6033690 20191130204729 0
+bot[\s_+:,\.\;\/\\-] 20 916139 20191128142839 2
+TelegramBot 2 136794 20191130000851 0
+yandex 366 33028703 20191130190244 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 3916 17067846 0 0
+png 7839 536355278 0 0
+woff2 844 46465728 0 0
+html 716 66080488 0 0
+jpg 19825 488862397 0 0
+js 7959 42319517 0 0
+Unknown 3086 167328326 0 0
+gif 16 83920 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+linuxandroid 16678 1670
+winxp 3452 354
+macosx11 10 4
+winlong 200 8
+ios_iphone 1754 158
+win2003 154 16
+win8 414 34
+macosx9 68 2
+ios_ipad 154 10
+unix 2 0
+linuxubuntu 2 2
+linux 348 100
+win7 10524 809
+macosx 930 68
+macosx10 84 10
+win8.1 973 69
+Unknown 598 590
+win10 7854 740
+macosx8 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 140
+firefox66.0 30 2
+chrome50.0.2661.89 2 0
+chrome72.0.3626.121 50 6
+chrome60.0.3112.50 52 4
+chrome74.0.3729.157 354 28
+firefox49.0 454 30
+chrome75.0.3770.143 46 4
+chrome27.0.1453.93 4 4
+msie7.0 2 0
+chrome50.0.2661.86 2 0
+chrome76.0.3809.89 2 0
+chrome77.0.3865.116 228 22
+chrome64.0.3282.137 218 28
+firefox50.0 100 100
+chrome72.0.3626.105 118 8
+opera64.0.3417.119 8 2
+chrome76.0.3809.132 260 20
+opera65.0.3467.48 2515 209
+chrome74.0.3729.136 356 28
+opera36.0.2130.80 288 22
+chrome44.0.2403.146 56 4
+firefox68.0 38 4
+firefox25.0 2 2
+chrome78.0.3904.70 62 6
+opera63.0.3368.94 76 6
+chrome78.0.3904.96 1020 82
+chrome44.0.2403.147 2 0
+chrome13.0.782.41 2 2
+safari12.1.2 350 38
+chrome41.0.2228.0 2 2
+safari 400 42
+chrome67.0.3396.87 554 46
+chrome34.0.1847.76 232 22
+safari11.0 94 8
+chrome75.0.3770.101 78 6
+chrome67.0.3396.79 2 2
+firefox52.0 44 4
+opera63.0.3368.107 42 4
+chrome46.0.2490.85 136 12
+chrome33.0.0.0 2 0
+iphone 2 0
+edge16 128 16
+chrome26.0.1410.65 2 2
+opera44.1.2254.142553 398 34
+opera54.3.2672.50220 36 4
+chrome71.0.3578.99 828 60
+chrome78.0.3904.92 2 0
+safari13.0.3 294 22
+msie9.0 280 8
+chrome60.0.3112.116 2 0
+chrome66.0.3359.126 56 4
+edge18 120 8
+safari13.0.2 146 6
+opera58.0.3135.107 56 4
+opera53.0.2907.99 2 2
+firefox69.0 314 28
+chrome76.0.3809.100 48 4
+firefox56.0 58 4
+chrome38.0.2125.102 8 0
+firefox67.0 2 0
+opera54.0.2952.54 2 2
+chrome74.0.3729.131 78 6
+chrome62.0.3202.84 2 0
+opera54.2.2672.49907 78 6
+chrome3.0.197.11 2 2
+opera36.0.2130.65 2740 296
+opera53.0.2569.141117 2 0
+chrome68.0.3440.91 32 4
+opera54.0.2952.64 10 10
+chrome61.0.3163.125 178 8
+chrome70.0.3538.110 122 10
+opera62.0.3331.116 70 4
+chrome69.0.3497.100 2 0
+firefox70.0 1656 104
+chrome77.0.3865.120 1118 80
+chrome53.0.2785.146 102 10
+opera65.0.3467.42 100 6
+firefox59.0 2 2
+chrome71.0.3578.141 218 18
+chrome70.0.3538.102 62 8
+chrome66.0.3359.181 2 2
+safari13.0.1 476 36
+chrome73.0.3683.103 2 0
+chrome49.0.2623.112 180 22
+edge17 4 2
+chrome55.0.2883.87 244 18
+opera12.16 2 2
+chrome66.0.3359.117 42 4
+chrome40.0.2214.109 2 0
+chrome78.0.3904.62 896 56
+chrome61.0.3163.140 4 0
+chrome68.0.3440.106 12 12
+chrome63.0.3239.132 2 2
+chrome77.0.3865.92 360 28
+chrome78.0.3904.87 60 4
+firefox12.0 2 2
+firefox47.0 80 80
+chrome75.0.3765.0 2 2
+chrome78.0.3904.97 688 48
+mozilla 564 564
+chrome40.0.2214.89 152 142
+safari12.1.1 2 0
+chrome32.0.1700.76 2 2
+chrome68.0.3440.84 2 2
+chrome73.0.3683.90 98 6
+opera64.0.3417.92 356 32
+chrome72.0.3626.96 48 4
+opera58.0.3135.132 72 4
+chrome55.0.2883.91 2 0
+safari12.0 122 10
+chrome56.0.2924.87 154 8
+chrome78.0.3904.90 334 28
+chrome57.0.2987.108 192 18
+chrome74.0.3729.169 128 10
+chrome66.0.3359.158 136 12
+chrome75.0.3770.142 36 2
+Unknown 34 26
+firefox27.0 2 2
+chrome53.0.2785.49 168 158
+chrome57.0.2987.137 106 6
+chrome30.0.0.0 2 0
+opera56.0.3051.99 42 6
+chrome77.0.3865.90 126 24
+chrome63.0.3239.111 438 34
+opera57.0.3098.106 70 4
+safari10.0 218 16
+chrome73.0.3683.86 438 30
+chrome78.0.3904.108 18333 1495
+firefox58.0 2 0
+chrome39.0.2161.3 2 0
+chrome59.0.3071.125 2 0
+chrome74.0.3694.0 82 6
+msie11.0 145 6
+chrome67.0.3396.99 10 8
+chrome45.0.2454.101 6 6
+chrome19.0.1084.5409 12 0
+msie10.0 398 32
+chrome76.0.3809.111 390 30
+chrome65.0.3325.109 6 0
+safari9.1.3 68 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(compatible;_evc-batch/2.0) 20191130090651
+SeopultContentAnalyzer/1.0 20191130150055
+okhttp/3.12.1 20191128203415
+adreview/1.0 20191128154311
+Go-http-client/1.1 20191127163456
+Mozilla/5.0_(compatible;_CBifInstalled/1.1;__https://callbacky.by) 20191130235358
+cortex/1.0 20191128154311
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+SeopultContentAnalyzer/1.0 20191130150055
+okhttp/3.12.1 20191128203415
+adreview/1.0 20191128154311
+Go-http-client/1.1 20191127163456
+cortex/1.0 20191128154311
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 664 1138
+From1 8 8
+From2 914 1824
+From3 6 8
+From4 3054 41223
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 15
+search 12 12
+bing 0 4
+www_google_kz 2 2
+www_google_com_ua 0 14
+www_google_by 36 50
+www_google_ru 8 32
+www_google_co_ma 0 2
+google_kz 0 2
+google_com 0 32
+www_google_ae 0 2
+yandex 202 232
+yandexua 2 6
+www_google_com 522 1204
+yandexru 118 206
+go_mail_ru 12 24
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://globaleagle.joinf.com 2 2
+http://www.barbarahome.top/blog/24341467/view/ 2 2
+http://poshukach.com 2 2
+http://domain.com 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+rlv 12
+%d0%b4%d0%b2%d0%b5%d1%80%d1%8c+%d0%ba%d0%b0%d0%bc%d0%b5%d0%bb%d0%b8%d1%8f+%d1%80%d1%83%d0%bc%d0%b0%d0%ba%d1%81+%d0%bd%d0%be%d0%b2%d0%be%d1%81%d0%b8%d0%b1%d0%b8%d1%80%d1%81%d0%ba 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+rlv 12
+%d1%80%d1%83%d0%bc%d0%b0%d0%ba%d1%81 2
+%d0%bd%d0%be%d0%b2%d0%be%d1%81%d0%b8%d0%b1%d0%b8%d1%80%d1%81%d0%ba 2
+%d0%ba%d0%b0%d0%bc%d0%b5%d0%bb%d0%b8%d1%8f 2
+%d0%b4%d0%b2%d0%b5%d1%80%d1%8c 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+403 12 2584
+206 18 3429756
+400 2 532
+302 3230 1381556
+419 2 3048
+499 25 0
+500 3752 5492796
+301 2897 528429
+404 1586 69335208
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 371
+/dveri/dg-shervyd-2 4 -
+/dveri/vega-5-cho-vilejka 4 -
+/vhodnye-dveri/arma-11-rb 2 -
+/vhodnye-dveri/dver-metalich-h98 4 -
+/dveri/porta-63-x 2 -
+/dveri/shponirovannie-econom 4 -
+/furnitura-dvernay/pro-zq-wc 4 -
+/dveri/intery-1-2 8 -
+/dveri/beleza-tripleks-prima-porta 4 -
+/vhodnye-dveri/optim-titan 2 -
+/ustanovka 6 -
+/public/vhodnye-dveri/dveri-granit-rossija 2 -
+/vhodnye-dveri/vhodnye-dveri-forpost 4 -
+/dveri/akva-2 12 -
+/vhodnye-dveri/hranitel-ladoga 2 -
+/dveri/luchi-5 8 -
+/dveri/masiv-dub-m6 2 -
+/vhodnye-dveri/lain-dk-venge 4 -
+/vhodnye-dveri/qsd-855m 6 -
+/dveri/duplex-8-veldors 6 -
+/dveri/masiv-duba-salvador 38 -
+/dveri/masiv-olhi-m3 4 -
+/furnitura-dvernay/zavertka-zn-wc-lockstail 4 -
+/dveri/arka-britanskaja 2 -
+/vhodnye-dveri/sparta-4-1-2 4 -
+/dveri/masiv-dub-k2 6 -
+/dacha-otdih/stul-barnij-olivia 6 -
+/dveri/pg-verona-venge 2 -
+/furnitura-dvernay/piza-al 2 -
+/dveri/vitrag-strukturirov 4 -
+/vhodnye-dveri/faktor-k-sonata-svetl-oreh 2 -
+/vhodnye-dveri/m188 2 -
+/dveri/istok-milano1-do 4 -
+/search 12 -
+/vhodnye-dveri/k700-dvuhstvorchataja 6 -
+/dveri/masiv-dub-m4 6 -
+/dveri/greenplant 2 -
+/vhodnye-dveri/kozirok-l1 2 -
+/vhodnye-dveri/titan-%D0%A210 8 -
+/dveri/emalit-diana-do 2 -
+/dveri/porta-62-x 2 -
+/dveri/dakar-do-bel-dub 2 http://go.mail.ru/search_images
+/dveri/svet-3 2 -
+/dveri/istok-milano3-d%D0%BE-bokal 8 -
+/dveri/niagara-solid 2 -
+/wp-login.php 6 http://budynak.by/wp-login.php
+/vhodnye-dveri/triymf-dk 4 -
+/dveri/ladora-2-13 6 -
+/dveri/garmoshka-rajt-011 4 -
+/furnitura-dvernay/ruchka-eridan 4 -
+/furnitura-dvernay/ruchka-corona 4 -
+/vhodnye-dveri/kozyrek-saphir1200 2 -
+/dveri/fmd-porta 10 -
+/dveri/dg-shervud-3 6 -
+/vhodnye-dveri/yasin-e40 4 -
+/dveri/masiv-dub-v2 2 -
+/dveri/ladora-2-11 6 -
+/dveri/f1 2 -
+/dveri/voshod-1 4 -
+/dveri/masiv-dub-m3 6 -
+/dveri/garmoshka-rait-018 4 -
+/vhodnye-dveri/standart-m100 2 -
+/vhodnye-dveri/optim-flesh-capuchino 2 -
+/vhodnye-dveri/kozyrek-saphir1500 2 -
+/vhodnye-dveri/temi-doors-petr 4 -
+/vhodnye-dveri/garda-s7-zerkalo 4 -
+/vhodnye-dveri/bel-st-andart-grand 4 -
+/vhodnye-dveri/prima-m 2 -
+/vhodnye-dveri/dver-metalich-h115 4 -
+/dveri/luchi-3 4 -
+/dveri/pos15-odincovo 4 -
+/dveri/po-venezia-oka 4 -
+/dveri/duplex-5 6 -
+/vhodnye-dveri/pu-132 4 -
+/dveri/cortex 2 -
+/vhodnye-dveri/t214-titan 4 -
+/vhodnye-dveri/model-3-antik 4 -
+/vhodnye-dveri/model-2-mdf-mdf 2 -
+/dveri/voshod-3 4 -
+/vhodnye-dveri/klassika-temidors 2 -
+/vhodnye-dveri/triumf-m8 4 -
+/dveri/serija-aqva 22 -
+/dveri/dveri-belij-oreandr 4 -
+/ads.txt 14 -
+/vhodnye-dveri/rubin-econom 4 -
+/dveri/porta-vitelija 2 -
+/dveri/pos17-kvadrat-f-odincovo 4 -
+/dveri/dveri-mariam 8 -
+/furnitura-dvernay/loredo 2 -
+/dveri/masiv-dub-k6 6 -
+/vhodnye-dveri/dvery-fopte-31 2 -
+/dveri/massiv-olha 4 -
+/vhodnye-dveri/model-2-antik 4 -
+/furnitura-dvernay/ruchka-diona 4 -
+/dveri/kamelia-do-rostra 2 -
+/dveri/prostor1 2 -
+/vhodnye-dveri/metalux-model-20 4 -
+/dveri/duplex9-veldors 6 -
+/vhodnye-dveri/renodoor-color 2 -
+/dveri/massiv-duba-d2 2 -
+/vhodnye-dveri/citadel-olha 4 -
+/dveri/stroidetali-francheska-oreh 2 -
+/vhodnye-dveri/dk-promo 10 -
+/dveri/dveri-urkas 6 -
+/dveri/masiv-dub-k5 6 -
+/vhodnye-dveri/triymf-dk&view=mobile 2 -
+/dveri/emalit-grecija-do 2 -
+/dveri/orhideya-do 4 -
+/dveri/massiv-olha-m1 2 -
+/dveri/sity-dk 2 http://budynak.by/dveri/sity-dk
+/dveri/stroidetali-vega-2-do&view=mobile 2 -
+/vhodnye-dveri/kamelot-carga-venge 2 http://go.mail.ru/search_images
+/dveri/masiv-olhi-m2 2 -
+/dveri/shervud-3-emal-chern 2 -
+/tel:+375%2029%20745%205889 2 -
+/dveri/intery-3-0 6 -
+/vhodnye-dveri/lain-dk-bel-dub 4 -
+/dveri/massiv-olha-k3 4 -
+/dacha-otdih/stul-barnij-roza 6 -
+/dveri/m11-c3 2 -
+/furnitura-dvernay/bari 2 -
+/vhodnye-dveri/interio-svetl-oreh 4 -
+/vhodnye-dveri/f272-lazur-ser 2 -
+/dveri/ladora-2-3 4 -
+/mejkomnatnye-dveri 2 -
+/dveri/pos23-odincovo 4 -
+/dveri/extra-temnij-oreh 2 -
+/dveri/massiv-olha-m7 2 -
+/vhodnye-dveri/granit-ultra-8 2 -
+/dveri/dveri-istok 4 -
+/dveri/emalit-troja-dg 2 -
+/furnitura-dvernay/%20%20dvernie-ruchki-s-zamkom 6 -
+/vhodnye-dveri/dver-metalich-h124 4 -
+/vhodnye-dveri/dveri-forte 4 -
+/dveri/luchi-2 4 -
+/vhodnye-dveri/granit-premium 2 http://go.mail.ru/search_images
+/dveri/intery-3-2 4 -
+/dveri/masiv-dub-k1 6 -
+/dveri/ladora-2-4 4 -
+/dveri/do-versal-oka 6 -
+/vhodnye-dveri/kozyrek-almaz1500 2 -
+/furnitura-dvernay/ruchka-%D1%80%D0%BD-%D0%B0222%20%20 4 -
+/vhodnye-dveri/kozirok-l4 2 -
+/vhodnye-dveri/tehno-2-temi-doors 4 -
+/vhodnye-dveri/m10-urstal 2 -
+/vhodnye-dveri/dk-optima 4 -
+/dveri/3-1-ego 4 -
+/dveri/intery-1-3 6 -
+/dveri/dveri-velldoris 8 -
+/dveri/cortex-z5-ch 2 -
+/furnitura-dvernay/furnitura-nomet 4 -
+/dveri/po-san-remo01-chertriplez-beldub 4 -
+/furnitura-dvernay/petlia-4%20pb-c 4 -
+/vhodnye-dveri/kondr-x2-bel 2 -
+/vhodnye-dveri/model-5-antik 2 -
+/vhodnye-dveri/dver-metalich-h110 4 -
+/vhodnye-dveri/delta-dk 6 -
+/dveri/dveri-shpon-mariam 6 -
+/vhodnye-dveri/kondr-madrid 2 http://go.mail.ru/search_images
+/vhodnye-dveri/fasad-4 4 -
+/vhodnye-dveri/dk-tehno 4 -
+/vhodnye-dveri/vhodnye-dveri-ur-stal 6 -
+/furnitura-dvernay/ruchka-libra 4 -
+/dveri/svet-2 2 -
+/vhodnye-dveri/granit-t2-lux 2 -
+/dveri/gorizont-1 2 -
+/vhodnye-dveri/metalur-m11&view=mobile 2 -
+/dveri/graffiti-2-pvh 2 -
+/temi-plast 2 -
+/vhodnye-dveri/kozyrek-hrustal1200 2 -
+/dveri/leonardo-oreh 2 -
+/dveri/po-sicilia02-belenyi-dub 2 -
+/dveri/ladora-2-12 6 -
+/dacha-otdih/stul-barnij-kamilla 2 -
+/vhodnye-dveri/dk-optima-c 2 -
+/furnitura-dvernay/ruchka-%C3%90%C2%BD%C3%91%C2%80682176%20%C3%91%C2%81-%C3%91%C2%81r%20l-r 8 -
+/furnitura-dvernay/nakladka--pro-et-lockstail 4 -
+/vhodnye-dveri/trend-m4 6 -
+/dveri/akva-1 10 -
+/dacha-otdih/teplica-solnechnaja-optima 2 -
+/dveri/el-porta&view=mobile 2 -
+/dveri/voshod-4 6 -
+/laminat-na-pol/laminat-iz-kronostar 2 -
+/dveri/ladora-kvadro 14 -
+/vhodnye-dveri/sity-dk 4 -
+/vhodnye-dveri/kontur-venge-dk 2 -
+/dveri/massiv-sosni-v-ecoshpone 4 -
+/vhodnye-dveri/evo-m2 6 -
+/dveri/massiv-olha-salvador 20 -
+/specials 2 -
+/laminat-na-pol/laminat-iz-krono-original 2 -
+/vhodnye-dveri/forpost-bel-f1-venge 2 -
+/vhodnye-dveri/dk-ellada 4 -
+/vhodnye-dveri/bergamo-premium 2 -
+/furnitura-dvernay/ruchka-%D1%80%D0%BD-%D0%B0222-1 4 -
+/dveri/corona-dg 2 -
+/vhodnye-dveri/dk-alfa 4 -
+/dveri/valencia-dg 4 -
+/dveri/alina2-do 4 -
+/proizvod-nash-standart 2 -
+/vhodnye-dveri/florencija-dk 6 -
+/dveri/luchi 6 -
+/vhodnye-dveri/yd-870 2 -
+/gardian 4 -
+/dveri/ladora-2-7 4 -
+/furnitura-dvernay/roliki-dlya-razdvignyh-dverej 2 -
+/dacha-otdih/stul-barnij-zeta-plus 2 -
+/dveri/ladora-2-2 4 -
+/vhodnye-dveri/kozirok-l3 2 -
+/vhodnye-dveri/magna-tehno 2 -
+/dveri/gorizont-4 8 -
+/dveri/uni-akvarel-8 4 -
+/dveri/5z-ch-gl 4 -
+/dveri/stroidetali-shpon 4 -
+/vhodnye-dveri/kozyrek-topaz1200 2 -
+/vhodnye-dveri/standart-rim 4 -
+/dveri/ladora-2-15 4 -
+/vhodnye-dveri/frpost-bel-f-1-bel-dub 8 http://go.mail.ru/search_images
+/vhodnye-dveri/temi-doors 6 -
+/furnitura-dvernay/ruchka-%D0%A0%D1%9C%D0%A0%C2%A0682176%20%D0%A0%D0%8E-%D0%A0%D0%8ER%20L-R 16 -
+/public/vhodnye-dveri/dvernoi-kontinent-proiz 2 -
+/vhodnye-dveri/praktik-c-1-2 2 -
+/dveri/lait-3-bel-st 2 -
+/vhodnye-dveri/temi-doors-tehno 4 -
+/dveri/istok-milano2-d%D0%BE 8 -
+/vhodnye-dveri/mt-10 2 -
+/dveri/laminatin 4 -
+/vhodnye-dveri/m2-urstal 4 -
+/vhodnye-dveri/p-1200-scl-bk 4 -
+/dveri/masiv-dub-k4 6 -
+/vhodnye-dveri/termal-bel-dub 2 -
+/dveri/intery-3-1 6 -
+/dveri/ecoshpon%20rb-city 12 -
+/furnitura-dvernay/ruchka-ph-a222-%D0%BD70 4 -
+/dveri/soft-reflex&view=desktop 4 -
+/vhodnye-dveri/vibor-5 4 -
+/vhodnye-dveri/luks-dk 4 -
+/vhodnye-dveri/moderno&view=mobile 2 -
+/vhodnye-dveri/rossiiskie-proizvoditeli 8 -
+/dveri/triplex-bel-chern 2 -
+/dveri/gorizont-3 2 -
+/vhodnye-dveri/%20dveri-granit-rossija 6 -
+/dveri/duplex 6 -
+/dveri/masiv-dub-m8 2 -
+/dveri/svet-1 4 -
+/vhodnye-dveri/sk-1-vasha-ramka 2 -
+/dveri/pos21-vijun-odincovo 4 -
+/dveri/po-c7-vitrag 2 -
+/rasprodaga/dver-metalich-elit-z3-matov 2 -
+/dveri/uni-g2 4 -
+/dveri/intery-5-0 6 -
+/dveri/massiv-olha-k5 2 -
+/vhodnye-dveri/forpost-bel-f43-venge 10 -
+/vhodnye-dveri/lain-kapuchino 2 -
+/dveri/ego-3-3-4-linii 6 -
+/dveri/pos3-odincovo 4 -
+/dveri/duplex-3 4 -
+/vhodnye-dveri/kozyrek-kvarz1200 4 -
+/vhodnye-dveri/evo-m1 4 -
+/vhodnye-dveri/forpost-bel-f44 4 -
+/dacha-otdih/stol-city 2 -
+/dveri/prostor-2 2 -
+/administrator/index.php 2 http://budynak.by/administrator/index.php
+/furnitura-dvernay/ruchka-%D0%A0%C2%A0%D0%A0%D1%9C-%D0%A0%D1%92222 16 -
+/vhodnye-dveri/grecija-dk 4 -
+/vhodnye-dveri/extra-temnij-oreh 4 -
+/vhodnye-dveri/trio-dk 2 -
+/vhodnye-dveri/h14-titan 2 -
+/dveri/intery-5-1 6 -
+/dveri/garmoshka-stil 6 -
+/vhodnye-dveri/turin-dk 2 http://go.mail.ru/search_images
+/rus%20dveri%20granit 4 -
+/vhodnye-dveri/temi-doors-diamant 6 -
+/dveri/po-s21barokko-odincovo 4 -
+/dveri/domino-prima-porta 4 -
+/858aNUBrkL6bFlUfzQb 2 -
+/dveri/dveri-ecoshpon-casaporte 4 -
+/vhodnye-dveri/interio-temn-orex 4 -
+/dveri/ladora-2-19 4 -
+/dveri/17x-steklo-matovoe 2 -
+/dveri/istok-milano3-d%D0%BE-bochka 8 -
+/dveri/aqva-1-2 10 -
+/dveri/masiv-dub-m7 4 -
+/dveri/ego-3-2 6 -
+/furnitura-dvernay/zavertka-wc-kvadrat-onix 4 -
+/vhodnye-dveri/london-premium 4 -
+/vhodnye-dveri/ht0408-oreh-titan 4 -
+/vhodnye-dveri/dveri-dom-na-skale 4 -
+/sitemap.xml 2 -
+/dveri/akva-3 12 -
+/dveri/po-sicila12-meling 2 -
+/furnitura-dvernay/ruchka-%D0%A0%C2%A0%D0%A0%D1%9C-%D0%A0%D1%92222-1 18 -
+/vhodnye-dveri/dvernoi-kontinent-proiz 8 -
+/vhodnye-dveri/dver-metalich-h102 2 -
+/dveri/valensia-oka-dg 8 -
+/laminat-na-pol/tarket-infiniti-8215 2 http://go.mail.ru/search_images
+/vhodnye-dveri/standart-b04 2 -
+/vhodnye-dveri/garda-venge 2 -
+/vhodnye-dveri/kolledey 4 -
+/vhodnye-dveri/k-111-2-kolledey 8 -
+/vhodnye-dveri/stroistandart-15 2 -
+/dveri/massiv-olha-m9 2 -
+/dveri/corona-do 2 -
+/dveri/ladora-2-1 8 -
+/dveri/akva-7 10 -
+/dveri/intery-1-1 4 -
+/vhodnye-dveri/dveri-citidoors 6 -
+/vhodnye-dveri/milano-premium 4 -
+/dveri/masiv-dub-m5 2 -
+/dacha-otdih/stul-marko 2 -
+/vhodnye-dveri/gerda-gtt-barselona-vitrag 4 -
+/dveri/dpg-milan-ital-oreh 4 -
+/furnitura-dvernay/morelli-mh15-son&view=desktop 2 -
+/dveri/duplex-2 6 -
+/vhodnye-dveri/vhodnie-dvery-rubin 4 -
+/dveri/luchi-4 6 -
+/dveri/dveri-laminirovannye-rostra 8 -
+/dveri/voshod-2 4 -
+/dveri/dveri-greenplant 6 -
+/vhodnye-dveri/dk-gamma 6 -
+/vhodnye-dveri/versal-dom-na-skale 2 http://go.mail.ru/search_images
+/dveri/ego-3-3 6 -
+/dveri/massiv-dub-m1 2 -
+/vhodnye-dveri/dk-sity-s 4 -
+/vhodnye-dveri/yd-51 2 -
+/dveri/po-san-remo01-beltriplez-beldub 6 -
+/dveri/massiv-italija 4 -
+/dveri/arka-tokio-1000 2 -
+/vhodnye-dveri/kozirok-l2 2 -
+/dveri/ladora-2-14 6 -
+/laminat-na-pol/laminat-iz-kronofloring 6 -
+/dveri/ladora-2-20 4 -
+/dveri/alexandrija2-do 2 -
+/furnitura-dvernay/furnitura-lob 2 -
+/vhodnye-dveri/allegro-dk 4 -
+/vhodnye-dveri/dver-metalich-h99 4 -
+/vhodnye-dveri/novosel 4 -
+/vhodnye-dveri/metalux-classic-model7 6 -
+/dveri-newdoor 2 -
+/furnitura-dvernay/ruchka-pro-capri 4 -
+/vhodnye-dveri/kondr-m3-lux 2 http://go.mail.ru/search_images
+/dveri/arka-tokio-2000 2 -
+/vhodnye-dveri/vhodnye-dveri-city-doors-qsd-30-lord 2 -
+/vhodnye-dveri/viktoria-bel-dub 4 -
+/furnitura-dvernay/mehanizm-vreznoj-%20lob-%20z7504c11l 4 -
+/vhodnye-dveri/kozyrek-kvarz1500 2 -
+/dacha-otdih/stoli 6 -
+/dveri/bretan-dg-rostra 2 -
+/dveri/smart-veldors 6 -
+/dveri/rostra 6 -
+/vhodnye-dveri/vhodnye-dveri-elbor 2 -
+/dveri/arka-milano-mdf-pvh 4 -
+/vhodnye-dveri/premium-dk 4 -
+/dveri/dveri-emalit 6 -
+/dveri/jork-hales 2 -
+/dveri/masiv-dub-m2-1 6 -
+/vhodnye-dveri/dver-metalich-h111 4 -
+/vhodnye-dveri/standart-klassika 2 -
+/dveri/gorizont-2 2 -
+/vhodnye-dveri/trend-m3 8 -
+/furnitura-dvernay/ruchka-PH-A222-%D0%A0%D1%9C70 8 -
+/vhodnye-dveri/dk-konsul 2 -
+/vhodnye-dveri/granit-m2-luks 2 -
+/vhodnye-dveri/akcia 2 -
+/dveri/pos-10 4 -
+/vhodnye-dveri/triumf-m9 4 -
+/dveri/pos17f-tulpan-odincovo 4 -
+/tel:+375%2025%20504%207298 2 -
+/dveri/ladora-2-30 4 -
+/dveri/uni-g3 4 -
+/dveri/masiv-dub-k3 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1037
+46.101.140.170 562 562 56736209 20191130235358
+213.228.95.78 112 1074 28602373 20191125080506
+37.215.48.226 108 1482 47488393 20191130230457
+37.212.10.244 106 932 33447740 20191130221612
+152.89.163.100 100 100 5674971 20191127175521
+51.158.98.238 80 80 7216856 20191129191520
+37.212.35.129 80 948 35268713 20191126235314
+37.215.38.117 62 894 30716069 20191130212259
+37.212.28.129 56 562 23503952 20191128225256
+37.212.28.1 54 298 9486140 20191127185449
+46.216.192.9 4 40 638258 20191130092100
+94.181.97.82 2 26 226980 20191129052926
+37.215.33.15 6 90 2930582 20191127232443
+178.168.224.23 4 58 828720 20191126204210
+80.94.246.133 0 2 358782 
+91.224.45.86 0 2 92520 
+212.92.154.146 0 2 2918786 
+37.212.48.73 0 2 11258 
+178.124.150.130 6 60 2270906 20191127152151
+37.214.73.66 0 2 29408 
+87.252.225.190 4 56 829976 20191130215932
+2.135.37.206 0 6 663670 
+46.53.250.168 10 175 1448053 20191130202638
+109.126.129.58 20 154 7317867 20191125110941
+37.212.89.139 4 58 828773 20191130124155
+117.44.25.215 2 2 96004 20191128053532
+178.120.55.254 7 97 1440914 20191129212955
+178.121.95.17 6 110 1455740 20191129122538
+178.168.158.82 8 78 1609622 20191129185002
+213.184.250.82 0 2 105238 
+31.173.243.86 4 48 2450786 20191126085157
+185.203.155.14 6 76 1526998 20191129120044
+176.60.0.123 4 42 528928 20191126203659
+193.37.51.84 2 2 110926 20191126031813
+178.121.73.226 0 2 476314 
+185.57.68.47 0 2 151972 
+37.215.30.248 0 2 11258 
+46.216.224.245 6 76 1526990 20191126064725
+178.120.61.66 4 58 828719 20191126164958
+46.56.234.124 0 2 89064 
+109.225.60.93 0 2 151972 
+114.98.119.205 2 2 106210 20191127113018
+78.47.228.112 2 2 110927 20191130105700
+144.91.78.42 0 2 158616 
+37.214.28.158 24 284 9739102 20191125204726
+178.120.68.213 2 2 101501 20191129192652
+86.57.138.85 4 58 828707 20191128155623
+37.212.14.166 14 84 1675917 20191129222513
+37.212.84.199 0 2 136794 
+194.61.91.130 0 2 296900 
+213.221.46.150 0 2 72474 
+37.214.49.91 14 196 7959256 20191127180217
+86.57.255.94 0 4 571686 
+46.53.181.63 0 2 296900 
+37.214.80.73 2 2 428282 20191129202853
+88.86.192.56 6 50 1631954 20191126115805
+183.161.224.51 2 2 109162 20191128020622
+159.138.151.225 2 2 107625 20191129194121
+37.45.9.135 0 2 233838 
+109.173.71.212 2 52 1319200 20191130173859
+115.198.32.56 2 2 107862 20191127204749
+37.252.81.98 0 2 542164 
+37.212.88.199 8 76 1382723 20191126211608
+46.146.197.57 0 2 289038 
+188.170.74.233 0 8 764276 
+46.56.207.95 0 2 110230 
+178.121.64.60 0 4 196724 
+178.168.180.160 4 56 946429 20191128101012
+178.120.22.237 4 56 829984 20191128100528
+2.57.207.153 0 2 312694 
+109.126.148.64 0 2 111850 
+95.67.80.222 0 2 372928 
+46.56.238.33 4 30 381850 20191130192143
+178.121.232.34 4 56 830043 20191130151252
+37.214.151.212 0 2 935720 
+95.153.130.214 4 46 1295543 20191129141502
+37.145.10.63 2 28 241165 20191130053200
+60.19.170.210 2 2 90727 20191128052521
+5.158.239.52 0 2 65786 
+159.138.153.8 2 2 87595 20191129204649
+94.180.176.116 0 2 188632 
+49.71.133.45 2 2 102608 20191128004249
+116.55.78.21 2 2 111262 20191127125243
+188.170.198.171 0 2 118488 
+120.80.43.134 2 2 111521 20191129164129
+95.58.51.98 0 2 127928 
+109.126.148.132 6 80 3689761 20191126113005
+89.221.226.228 0 2 180604 
+37.215.244.207 8 62 1041156 20191125125659
+178.124.25.197 4 42 709143 20191129114751
+159.138.155.210 2 2 93878 20191130002213
+188.190.221.225 0 2 2918786 
+178.127.98.11 0 4 223700 
+5.228.56.61 2 28 241133 20191129213221
+85.140.1.133 0 2 112010 
+37.214.82.99 4 58 828721 20191130233358
+159.138.157.53 0 2 399080 
+178.121.15.55 4 30 381780 20191127101020
+37.44.110.191 0 2 44216 
+46.56.218.2 4 58 828736 20191126093715
+37.214.82.228 0 24 126560 
+159.138.148.104 2 2 91823 20191129225539
+45.144.243.101 0 26 1773256 
+66.102.7.8 0 9 376013 
+46.165.250.75 0 2 542164 
+46.216.178.70 6 80 1104642 20191125195226
+178.121.2.168 0 2 2918786 
+93.125.107.90 4 58 828718 20191128101804
+159.138.155.66 2 2 94464 20191129210657
+194.62.134.147 2 2 111004 20191130031837
+178.120.13.151 0 2 44442 
+104.36.18.80 2 2 110921 20191129223702
+93.84.88.53 8 140 1970123 20191129124600
+37.212.82.56 6 110 1455942 20191129203556
+194.62.135.28 2 2 106504 20191129140153
+159.138.150.104 2 2 114521 20191129123208
+37.212.92.214 4 38 691352 20191127200257
+178.126.78.17 0 2 107304 
+84.54.114.234 4 56 989600 20191128130237
+114.107.150.138 2 2 109425 20191128021727
+176.59.47.240 0 2 2918786 
+159.138.157.192 2 2 92137 20191129172850
+80.83.239.93 0 2 112010 
+37.212.137.85 0 2 255544 
+46.56.234.84 0 4 267088 
+178.168.242.186 4 38 401091 20191129182343
+176.60.129.31 0 2 112010 
+77.83.195.45 2 2 103550 20191126134704
+82.145.223.131 10 96 4525946 20191125222417
+216.145.11.94 2 2 111553 20191129043202
+128.68.99.210 2 26 229256 20191125105352
+159.138.156.44 2 2 99871 20191129200347
+178.132.134.55 0 2 221426 
+46.216.192.16 0 2 115376 
+91.223.128.25 0 2 211280 
+91.193.177.172 0 2 112010 
+178.89.169.207 0 2 72474 
+178.124.223.131 6 90 1231630 20191125095135
+31.43.31.143 0 2 39276 
+217.65.248.135 0 2 1472534 
+46.216.162.196 4 70 746780 20191127145517
+176.59.45.120 0 2 838240 
+194.158.205.2 4 50 2160119 20191125121542
+14.209.40.116 2 2 114622 20191128013832
+113.89.238.234 2 2 94383 20191128002503
+193.106.43.138 0 2 79744 
+116.52.80.196 2 2 114476 20191128063058
+134.17.139.211 8 96 3538040 20191130124204
+163.172.182.111 2 2 110939 20191130215243
+2.132.72.209 0 2 65786 
+178.120.52.213 0 2 109360 
+46.56.235.191 4 58 828799 20191130031955
+31.13.144.66 4 30 381864 20191129214829
+159.138.128.253 2 2 110529 20191129220148
+159.138.154.226 2 2 91895 20191129235913
+176.43.241.145 0 2 196628 
+183.161.225.9 2 2 96111 20191127103358
+183.164.227.75 2 2 94529 20191127221055
+217.25.18.191 0 2 72474 
+217.118.95.111 0 2 112010 
+93.85.93.54 0 2 84258 
+46.56.207.210 10 146 7070098 20191130204633
+178.120.60.147 4 50 906868 20191127163645
+178.168.176.87 4 56 829981 20191126170103
+94.75.185.244 0 4 634806 
+37.212.195.76 10 80 1443616 20191125190719
+46.56.218.64 6 96 1812307 20191125141601
+113.117.26.251 2 2 106331 20191127132748
+46.251.213.110 0 2 270356 
+46.216.65.239 4 36 1204064 20191129161255
+159.138.156.182 2 2 100655 20191129171335
+178.121.113.80 0 2 105666 
+85.115.243.38 4 52 992610 20191126005906
+212.96.69.125 0 2 224208 
+46.56.241.22 4 58 828823 20191128141345
+77.121.199.218 4 54 505912 20191130170338
+80.249.80.210 0 2 72474 
+2.95.119.83 4 52 2045597 20191125172654
+37.212.60.229 0 2 17214 
+46.216.225.128 6 74 1047058 20191129090259
+125.64.124.16 2 2 100311 20191128015842
+217.21.54.142 36 442 12319337 20191127164701
+178.122.235.186 4 42 570701 20191125130035
+176.59.50.241 0 6 881598 
+2.94.189.16 0 2 1207628 
+185.128.200.24 4 58 828693 20191126234850
+37.215.56.36 10 10 501592 20191127150103
+80.70.77.135 0 2 60444 
+159.138.157.87 2 2 117387 20191129212811
+193.106.56.95 0 2 179534 
+91.235.227.66 0 2 111036 
+93.84.110.250 22 392 11991023 20191128143055
+2.95.127.61 2 4 358672 20191130080531
+93.84.90.73 4 58 828819 20191129154540
+159.138.159.81 2 2 103108 20191130004937
+87.252.225.111 8 106 3444231 20191126151337
+92.38.77.1 0 4 1445716 
+178.120.10.40 4 58 828788 20191126204134
+37.9.159.100 2 2 206372 20191125094603
+93.125.42.143 8 112 3307723 20191130215847
+93.171.36.144 6 66 938939 20191126210323
+37.215.29.85 8 78 1526604 20191125080445
+91.202.165.137 0 2 296900 
+37.215.54.23 6 60 934902 20191129194440
+46.219.210.209 0 4 429696 
+80.249.82.86 4 50 1302824 20191126112410
+193.9.114.215 4 4 365734 20191126142456
+92.38.66.120 0 4 292164 
+178.121.218.61 0 2 110230 
+95.142.195.143 0 2 2918786 
+175.42.87.96 2 2 110961 20191125082309
+94.180.139.246 2 36 282364 20191128211214
+198.16.78.45 0 2 84258 
+176.59.111.204 0 2 16384 
+159.138.154.121 4 4 178153 20191129125659
+178.140.215.33 2 26 227748 20191126020834
+178.94.37.29 0 2 171352 
+77.43.206.233 0 2 65598 
+46.42.166.114 2 26 227946 20191127004141
+37.213.121.4 0 2 882400 
+73.189.16.129 4 42 1291240 20191129190944
+178.19.253.107 2 2 164036 20191128215232
+31.129.247.237 0 2 261878 
+109.123.156.212 0 2 42992 
+159.138.158.158 2 2 98135 20191129160733
+213.184.250.163 6 102 2470571 20191125173920
+87.252.225.170 6 42 1120748 20191125202859
+83.220.239.160 0 4 238960 
+31.13.127.19 0 2 90812 
+46.56.240.11 6 68 934818 20191125162304
+62.148.227.77 0 2 476314 
+85.95.185.186 0 2 576672 
+77.40.62.235 0 2 112010 
+159.138.148.161 2 2 114916 20191130012331
+176.15.40.146 2 44 2321300 20191126005934
+194.158.200.234 4 68 921965 20191127124301
+173.252.127.21 2 30 1833892 20191128154231
+178.168.242.25 4 38 691341 20191128104553
+92.46.27.83 0 2 113846 
+185.203.155.1 6 68 931445 20191125173243
+31.133.59.184 4 50 1212691 20191129024403
+46.216.65.65 0 2 444738 
+176.100.75.68 0 2 859304 
+178.121.84.206 6 90 2445506 20191126205010
+159.138.148.190 2 2 99680 20191129110019
+37.212.8.73 0 2 935720 
+159.138.156.205 2 2 111005 20191129130942
+178.125.56.173 4 58 828705 20191128121234
+159.138.153.141 2 2 94036 20191129190358
+78.85.48.182 0 2 72474 
+217.21.43.91 4 42 533954 20191130090917
+46.56.244.27 0 2 110230 
+159.138.128.149 2 2 108987 20191129153845
+37.215.54.176 16 126 2306118 20191125202219
+182.38.4.20 2 2 122941 20191127152310
+128.69.146.58 2 36 978554 20191128202348
+178.120.47.229 0 2 29408 
+80.83.234.37 0 2 110230 
+92.101.151.135 0 2 184480 
+5.16.48.165 4 4 366960 20191125143935
+86.57.227.109 4 56 830120 20191129101459
+176.59.67.34 0 2 155298 
+46.216.172.42 6 88 3487308 20191125173912
+173.252.127.14 0 2 425140 
+37.215.24.168 0 2 404844 
+37.44.85.168 10 84 1664508 20191125222604
+213.111.74.125 0 2 110230 
+178.172.246.245 4 36 1178789 20191126105433
+59.58.62.174 2 2 103689 20191128055815
+41.111.212.35 0 2 120952 
+123.162.175.37 0 2 314048 
+178.121.66.12 8 76 2184284 20191130140327
+46.56.235.117 4 50 439179 20191128140752
+80.249.82.211 0 2 173298 
+87.252.225.104 0 2 89770 
+95.47.198.174 0 2 296900 
+159.138.156.78 2 2 91945 20191129111630
+31.146.72.189 0 4 315216 
+46.53.240.242 4 52 2313880 20191126200126
+37.215.28.240 6 88 3912730 20191128211728
+37.214.12.74 14 234 3608090 20191129185451
+93.84.189.243 4 42 524306 20191130211510
+178.90.33.246 2 2 111012 20191129210140
+85.140.76.96 0 2 236372 
+37.212.93.17 4 70 835416 20191127210932
+178.186.56.176 0 2 236372 
+37.215.46.107 6 110 2781376 20191125214559
+86.57.165.251 4 30 358061 20191128131036
+178.127.181.247 14 232 9995473 20191129193650
+178.120.59.40 0 2 427080 
+119.131.142.1 2 2 99806 20191130000435
+163.172.155.149 8 84 5293026 20191129212315
+37.212.209.77 4 58 828827 20191129171512
+223.244.152.179 2 2 96782 20191127155450
+124.113.193.132 2 2 99841 20191129174221
+194.158.205.154 0 16 1050532 
+94.180.139.33 2 68 541967 20191126093655
+46.216.46.176 4 58 828726 20191126162100
+178.120.34.249 10 30 970649 20191127202150
+37.17.69.150 4 58 828777 20191125152908
+37.214.15.160 4 58 828726 20191127093325
+117.57.85.107 2 2 102308 20191128061619
+159.138.128.9 2 2 93458 20191129104839
+23.100.232.233 8 280 2575097 20191126021150
+37.214.78.71 6 42 1399856 20191129165019
+18.237.148.15 2 2 110922 20191125195453
+180.105.204.100 2 2 95923 20191129132215
+178.121.0.243 6 60 916032 20191125174555
+178.120.46.220 4 58 828777 20191125151611
+212.96.82.150 0 2 476314 
+178.120.59.15 0 4 262254 
+159.138.149.8 2 2 99961 20191129211005
+80.83.234.6 0 2 838240 
+176.60.128.93 37 227 9035249 20191127115536
+93.84.198.123 0 2 971016 
+37.214.16.87 0 2 185684 
+109.126.144.172 6 82 1636951 20191130135012
+178.120.40.83 4 56 829996 20191127125831
+85.91.205.11 0 2 144096 
+37.215.3.130 0 2 110230 
+188.243.128.232 0 2 461372 
+178.124.33.91 0 2 112010 
+193.106.43.23 0 2 1329966 
+159.138.155.45 2 2 105515 20191129230340
+178.172.234.58 4 52 1226476 20191128102107
+37.214.76.160 4 38 691345 20191130084906
+37.215.89.64 8 80 1637809 20191125205324
+159.138.154.52 0 2 1404908 
+176.60.4.97 6 44 720096 20191127070751
+37.215.33.251 4 58 828791 20191126220312
+159.138.128.24 2 2 111585 20191129233221
+94.242.5.246 0 2 211280 
+31.173.80.35 0 2 250100 
+37.212.23.214 6 76 1526993 20191130010108
+18.237.92.77 2 2 110925 20191126150004
+178.124.178.192 0 2 214030 
+178.124.177.43 4 40 922814 20191125164911
+27.159.142.125 2 2 97693 20191127223223
+37.215.33.163 4 42 563599 20191126153728
+86.57.249.1 6 106 1677967 20191128121724
+113.77.135.25 2 2 105679 20191127214415
+91.245.127.77 0 2 153080 
+46.216.144.246 4 42 563093 20191130105027
+46.56.246.211 0 8 325160 
+94.180.249.163 0 2 110230 
+159.138.154.120 2 2 103271 20191129201022
+109.126.134.195 4 68 921906 20191127140050
+46.53.240.33 2 66 808362 20191128185553
+185.57.69.247 0 4 183892 
+95.174.126.35 4 38 666442 20191130092404
+92.38.76.191 4 70 2667825 20191128182816
+46.56.245.0 12 184 5844192 20191128202445
+95.47.249.119 0 2 318508 
+91.90.13.76 0 2 236372 
+46.56.237.181 6 80 1421608 20191125180012
+94.137.27.203 2 28 268279 20191128202343
+82.208.115.131 0 6 1879420 
+178.125.207.237 0 2 173960 
+37.214.73.199 4 80 5071121 20191126174938
+188.170.82.54 0 2 74498 
+159.138.128.239 2 2 109258 20191127093139
+176.60.22.98 4 4 101416 20191128193402
+46.216.192.135 6 30 298663 20191126204811
+37.45.94.64 4 30 381849 20191126212007
+46.56.238.132 0 2 230716 
+37.212.95.223 0 2 111850 
+37.215.28.15 8 62 1026537 20191128215401
+46.53.169.115 0 2 476314 
+37.215.18.135 4 56 1688673 20191126182900
+31.15.48.85 0 4 84786 
+46.216.66.48 4 30 381915 20191127192812
+159.138.152.187 0 2 702660 
+178.122.140.121 4 30 381812 20191129180454
+183.199.164.79 2 2 96826 20191127165753
+85.91.198.12 0 2 131500 
+91.193.176.85 0 2 1074880 
+134.17.25.208 4 64 1422628 20191126122223
+92.240.138.148 2 2 206370 20191127044821
+5.18.170.175 0 2 36700 
+89.251.171.170 0 2 84258 
+82.209.222.220 8 78 1200933 20191128124632
+93.84.169.164 0 2 223542 
+91.192.66.157 0 2 72474 
+176.60.128.230 11 47 4864561 20191129132022
+27.115.124.66 0 6 4294 
+159.138.149.198 2 2 100924 20191130012114
+173.252.127.28 0 2 6164 
+31.13.127.21 0 2 90812 
+109.126.142.114 0 2 111850 
+178.127.210.187 6 76 1235761 20191129000058
+112.113.152.192 2 2 101919 20191127104728
+178.120.61.171 0 2 103814 
+173.252.127.23 2 26 1228424 20191128154234
+95.24.5.3 2 6 124642 20191127183809
+94.143.197.14 0 4 369374 
+159.138.149.107 2 2 100459 20191129224940
+46.216.66.242 30 168 6331971 20191126132650
+46.211.112.233 0 2 1227421 
+176.59.19.24 0 2 166706 
+37.215.4.189 6 76 1447418 20191126222106
+171.13.14.56 2 2 110922 20191127225741
+46.211.40.64 0 2 915398 
+31.13.127.12 0 2 90812 
+94.180.177.158 2 50 1328401 20191129153442
+85.26.232.217 0 2 372928 
+178.204.247.65 0 2 236372 
+222.188.242.201 2 2 98159 20191128043743
+178.176.216.57 0 2 112010 
+37.212.94.185 4 42 550672 20191129220523
+128.69.65.145 4 40 808716 20191130222841
+178.125.179.52 4 58 828732 20191127161253
+89.151.136.1 0 2 816952 
+178.168.242.149 0 2 72474 
+37.212.64.222 4 36 450700 20191128065916
+178.121.178.233 0 2 65284 
+82.209.244.230 4 70 1338181 20191128115752
+46.216.66.113 8 78 1325758 20191127152345
+95.27.182.53 2 26 228162 20191126053134
+91.240.97.167 0 2 139022 
+59.148.22.163 0 12 1366050 
+46.216.192.101 10 184 5824112 20191126174755
+93.125.62.170 4 36 492416 20191125150442
+178.120.20.23 4 70 2027406 20191128135003
+212.96.95.38 0 2 236372 
+37.214.129.71 12 230 3053603 20191128155525
+188.168.25.136 4 46 1774998 20191126042754
+5.173.176.189 0 2 48918 
+178.120.38.58 10 112 2125511 20191127034005
+178.122.122.78 4 58 828702 20191125221505
+46.56.240.154 0 2 372928 
+172.104.110.74 4 20 553784 20191129115554
+83.169.216.135 0 2 151972 
+128.124.72.167 0 2 372928 
+123.55.1.163 2 2 125527 20191127190510
+113.94.71.67 2 2 94082 20191127140310
+46.19.103.113 4 56 567456 20191125161205
+46.216.64.139 10 102 7180884 20191127150615
+86.57.218.73 4 70 655533 20191128155706
+178.120.41.199 4 58 828676 20191125230930
+46.56.245.252 6 92 2670903 20191126153254
+37.214.37.128 4 30 381854 20191130185814
+145.255.11.95 0 2 614764 
+178.120.43.65 8 92 3429013 20191126134632
+178.168.144.102 4 48 1734937 20191125200520
+159.138.156.186 2 2 104551 20191129222219
+109.126.137.177 10 78 2183757 20191127110822
+195.178.196.34 0 2 1426256 
+176.60.18.61 8 128 5123706 20191130092120
+80.83.238.23 0 2 312694 
+5.45.235.106 0 4 290320 
+62.133.52.178 2 2 110933 20191128031818
+37.212.199.179 4 56 829978 20191128095627
+178.35.233.231 2 2 110940 20191127075320
+81.30.83.75 4 58 828715 20191127144238
+176.60.4.255 4 38 481045 20191125141818
+178.122.143.4 6 76 1094730 20191130163658
+46.56.237.14 4 56 829973 20191128104700
+178.122.199.59 6 76 1094680 20191130074008
+46.216.152.145 4 56 829986 20191128001508
+37.45.77.121 4 38 1092066 20191125225948
+217.118.81.20 0 2 372928 
+37.212.16.68 22 312 9723083 20191129201350
+95.153.128.162 0 2 112010 
+93.191.103.193 24 172 10202128 20191130122710
+46.216.64.127 16 76 1327256 20191129192801
+46.147.79.243 0 2 110230 
+111.72.138.53 2 2 93645 20191128012544
+37.212.83.48 8 122 3738712 20191128152555
+178.120.22.145 8 116 1963610 20191129133726
+178.35.233.229 2 2 110930 20191130222522
+178.172.234.81 10 180 6733668 20191130170641
+94.103.236.100 0 2 15250 
+122.192.29.214 2 2 90046 20191128055133
+111.75.117.207 2 2 107399 20191128024909
+37.212.24.149 6 46 477192 20191125155150
+188.233.12.57 0 2 372928 
+82.209.254.118 4 42 560269 20191128155254
+37.215.57.46 4 38 1092163 20191127163123
+178.122.73.254 0 4 309504 
+27.115.124.68 0 8 15876 
+110.246.7.6 2 2 115193 20191127203606
+176.59.131.94 0 2 748454 
+159.138.128.209 4 4 192932 20191129165436
+93.125.121.17 4 36 630500 20191125104203
+92.55.191.131 0 2 296900 
+178.120.6.55 0 2 299188 
+88.154.24.220 0 2 112010 
+159.138.159.114 2 2 97730 20191130002426
+37.214.82.112 8 78 1508913 20191129205303
+178.123.21.207 2 54 1216134 20191128230635
+54.191.191.206 2 2 111053 20191127163456
+178.124.172.36 0 18 3279447 
+182.244.169.14 2 2 110684 20191127120027
+37.214.56.135 0 2 59510 
+114.105.172.108 0 2 231454 
+173.252.127.18 0 2 901006 
+93.125.107.8 10 100 1358038 20191129035330
+37.215.4.225 4 42 541910 20191126172841
+37.212.249.210 6 80 771563 20191125174328
+178.127.119.15 4 42 561276 20191128120757
+185.70.12.74 0 2 158614 
+91.244.168.4 0 2 201332 
+114.105.174.100 2 2 104073 20191127160041
+116.203.99.40 2 2 201874 20191129224812
+92.38.79.94 0 2 480208 
+46.216.65.224 4 54 2369267 20191130123149
+46.56.219.145 4 58 828861 20191128144059
+95.24.23.123 2 28 241287 20191130040530
+46.53.243.75 4 52 1441901 20191130230402
+27.24.5.77 2 2 109894 20191127110134
+94.233.233.74 0 2 823620 
+112.12.25.228 2 2 92382 20191127215506
+109.237.13.247 0 2 196780 
+159.138.158.67 2 2 107311 20191129124005
+46.53.240.125 0 2 372928 
+46.56.204.209 4 58 828718 20191130130742
+194.158.216.52 4 42 599234 20191129100459
+176.60.0.174 0 2 110230 
+178.121.91.71 0 2 2969852 
+37.212.6.208 0 4 194232 
+80.94.160.209 4 44 1238769 20191126135417
+37.215.52.136 4 56 829970 20191130095527
+46.39.51.216 0 4 1962160 
+5.255.199.7 0 6 457044 
+37.230.247.154 0 2 172708 
+46.211.156.218 0 2 372928 
+37.212.232.174 6 100 1701071 20191130122904
+95.221.85.50 0 2 82492 
+46.56.247.195 6 76 1235563 20191125192002
+2.50.48.147 0 2 196628 
+37.214.45.121 4 58 828750 20191126201047
+159.138.150.115 2 2 112620 20191129124316
+188.124.125.184 0 4 622755 
+159.138.157.95 0 2 39966 
+113.143.56.62 2 2 114408 20191127230719
+159.89.186.10 0 2 1426256 
+95.182.16.220 0 2 312694 
+46.216.24.21 4 58 2964866 20191129204527
+213.230.118.92 0 2 2918786 
+95.84.163.50 2 68 1561872 20191128034304
+159.138.153.30 4 4 216747 20191129204017
+178.121.4.81 6 52 639406 20191128220847
+178.121.199.208 2 2 194787 20191125121656
+134.17.25.238 10 112 5189089 20191125120018
+93.125.87.213 4 70 962466 20191130203639
+178.121.129.51 8 112 1659975 20191130192001
+176.60.128.212 0 2 86706 
+95.46.243.73 4 36 477913 20191125104156
+109.252.79.191 0 2 823620 
+178.122.171.26 8 94 2890155 20191126225617
+140.237.162.106 2 2 123486 20191127160819
+46.216.36.79 4 58 2964733 20191125235523
+37.214.33.55 0 2 50740 
+176.60.22.113 0 2 111850 
+37.215.94.216 6 76 1415861 20191127023542
+91.205.197.98 0 2 224208 
+182.101.230.191 2 2 97724 20191127185721
+178.120.32.185 6 60 916689 20191126200414
+82.208.113.26 0 2 476314 
+196.196.47.54 2 2 163916 20191130140031
+94.180.131.13 2 68 721857 20191127210527
+79.143.36.183 0 4 425790 
+46.42.165.148 2 38 467267 20191127210515
+37.147.234.199 2 68 704996 20191126005940
+46.216.128.187 34 378 7361623 20191127072108
+37.214.50.114 4 40 638310 20191128180905
+176.59.50.166 0 2 293866 
+178.121.225.69 4 58 828723 20191130231648
+85.238.99.111 0 2 30550 
+176.60.4.60 8 78 1609632 20191128162918
+37.44.98.12 22 232 4018053 20191126235647
+178.136.13.203 0 2 259548 
+217.18.62.46 2 2 107598 20191127084655
+188.162.48.98 0 2 112010 
+37.214.1.69 4 56 830039 20191126203730
+46.211.217.159 0 4 484778 
+185.234.219.246 4 4 327952 20191129224820
+46.56.235.67 0 2 173960 
+178.168.191.106 2 2 90194 20191125070006
+37.215.29.242 4 70 655513 20191127215507
+80.93.120.32 0 2 476314 
+37.214.5.66 4 58 828718 20191125124209
+176.116.136.204 0 2 128536 
+159.138.154.172 0 2 97686 
+86.57.172.40 4 36 685163 20191125101531
+45.89.75.181 2 2 110928 20191129031829
+188.32.136.113 2 28 243567 20191129002826
+109.86.91.170 4 42 574347 20191129001558
+46.216.246.27 4 58 828830 20191127163450
+46.216.204.125 0 2 106504 
+178.172.239.99 2 12 220147 20191129160942
+159.138.156.147 0 2 219812 
+95.24.7.107 2 26 244964 20191127183813
+194.44.175.2 0 2 112010 
+37.214.80.120 0 4 967272 
+37.215.25.194 6 80 770503 20191125104038
+91.229.177.244 0 2 150936 
+37.214.31.208 4 68 922084 20191126085707
+2.132.85.29 0 2 72474 
+93.84.105.127 0 2 69330 
+106.92.102.53 2 2 127539 20191128003934
+109.126.134.1 4 70 655512 20191130221440
+78.36.92.34 0 2 107320 
+46.56.201.175 0 2 29408 
+37.212.66.230 6 56 759864 20191128212135
+80.94.174.54 32 496 10500911 20191129142654
+159.138.156.225 2 2 89763 20191129134428
+217.118.93.84 0 2 1329966 
+37.212.79.215 6 74 1047218 20191125095359
+31.148.178.17 0 2 97116 
+82.209.223.147 4 42 2572391 20191127144008
+182.34.207.194 2 2 87301 20191127114942
+5.62.18.46 6 6 525450 20191129124827
+89.17.42.24 0 2 1329966 
+37.214.37.241 6 82 1636806 20191127131840
+93.84.236.21 0 4 348382 
+85.140.2.10 0 2 236372 
+109.252.81.3 4 56 2311936 20191125233745
+88.135.62.21 6 40 511587 20191126193229
+87.252.229.43 4 30 381834 20191130092822
+37.212.77.67 4 60 679218 20191130223453
+192.116.255.25 0 2 1208824 
+46.211.139.240 0 2 836000 
+37.215.33.160 8 152 2233236 20191125190258
+46.216.193.227 6 108 5629089 20191128011156
+195.38.49.100 0 2 508126 
+178.124.196.167 2 2 0 20191125095310
+86.57.176.67 4 42 575006 20191128144015
+86.57.229.73 0 2 287472 
+46.216.128.83 0 2 87378 
+87.252.252.168 4 70 1338411 20191125172138
+176.36.21.189 8 8 809248 20191127072357
+178.168.242.240 0 2 101962 
+31.173.26.251 2 2 110930 20191126032720
+66.102.7.6 0 11 412500 
+45.12.220.2 2 2 165656 20191128000410
+60.160.143.148 2 2 112699 20191128045602
+176.60.156.17 6 44 1484592 20191126154954
+88.154.232.121 0 2 179534 
+188.170.73.57 0 2 123916 
+159.138.151.245 2 2 99851 20191129232443
+37.212.67.246 0 2 135246 
+37.214.62.161 4 58 828722 20191127221325
+46.56.204.141 6 36 1583028 20191125203425
+176.60.152.59 0 4 187374 
+95.58.69.211 4 30 381840 20191126201244
+185.28.110.197 0 2 86706 
+46.56.237.241 4 68 744818 20191125160555
+46.216.144.200 0 2 65786 
+2.132.82.49 0 2 272302 
+46.53.253.241 4 56 830009 20191130141528
+117.69.150.89 2 2 104494 20191129182813
+51.158.121.241 24 290 9800374 20191129205426
+119.4.252.149 2 2 110414 20191129184808
+178.168.224.133 4 58 828825 20191125094902
+46.53.253.83 10 188 5151086 20191127212737
+37.215.44.104 4 58 828781 20191126213955
+196.150.138.9 4 58 828669 20191125102045
+90.143.187.77 2 24 661373 20191126114426
+93.84.95.106 0 2 289584 
+159.138.148.141 2 2 102304 20191129180138
+159.138.153.63 2 2 109872 20191129163340
+217.118.95.126 4 58 1788491 20191128191128
+144.76.162.206 2 2 170894 20191130002041
+31.173.86.31 0 2 104228 
+93.84.182.104 4 58 828711 20191125204816
+37.215.63.183 2 2 113044 20191128202647
+159.138.128.30 2 2 111300 20191129211527
+46.216.64.75 4 42 546940 20191128011540
+37.215.36.63 8 72 1925931 20191125214248
+159.138.153.83 2 2 91574 20191129214158
+93.84.108.86 6 111 2779496 20191125163642
+106.38.241.69 0 2 18236 
+66.102.7.10 4 17 753640 20191125132700
+178.122.207.220 4 48 1024171 20191129101300
+93.125.6.74 6 72 1099471 20191126141421
+37.213.179.198 8 120 2942077 20191127221750
+178.121.183.92 4 36 450496 20191127115526
+178.121.14.199 4 44 1661504 20191130194250
+46.216.172.35 4 58 828800 20191126121032
+46.216.145.121 10 122 2535560 20191126073444
+176.60.0.212 0 4 196240 
+159.138.153.54 2 2 103787 20191129105209
+185.128.200.40 0 2 162240 
+37.212.50.202 6 82 1289326 20191125222033
+178.168.176.115 4 42 563768 20191129134428
+176.60.0.197 0 2 372928 
+85.249.73.90 2 26 218864 20191126120724
+46.216.224.90 0 2 126582 
+213.231.20.6 0 2 372928 
+37.212.200.109 4 46 564426 20191127160223
+176.59.199.155 14 206 9790964 20191127073330
+37.110.215.11 4 40 1330797 20191127063454
+37.214.61.113 0 2 665868 
+119.187.242.216 2 2 124599 20191127105102
+37.215.6.70 0 4 117214 
+37.212.10.93 14 180 11004915 20191129234820
+46.216.67.46 10 138 1820269 20191129112114
+37.214.79.85 2 8 0 20191126085135
+158.181.41.216 0 2 159274 
+178.121.30.13 6 68 931568 20191125135137
+178.121.94.5 4 50 2160148 20191126094411
+14.222.45.233 2 2 112064 20191127115140
+37.215.2.226 6 58 917284 20191126162945
+46.56.203.35 0 2 72474 
+195.91.241.1 4 34 928052 20191126215647
+178.127.181.249 4 58 828719 20191130234528
+159.138.157.147 2 2 93657 20191129145649
+109.225.47.74 0 2 372928 
+205.126.15.195 0 2 117392 
+178.120.41.78 8 62 1024315 20191129222050
+159.138.149.84 2 2 103358 20191129200355
+134.17.30.10 2 36 978523 20191128095646
+176.60.0.218 4 70 756831 20191126162535
+46.56.218.141 0 2 29408 
+94.245.189.222 0 2 112010 
+178.124.35.57 4 46 970799 20191127144840
+95.141.229.187 0 2 208280 
+37.215.50.48 4 56 829980 20191126201336
+159.138.156.133 2 2 109871 20191129134925
+159.138.159.223 2 2 110916 20191128122219
+182.99.153.57 2 2 103438 20191128022801
+178.124.16.196 4 42 1438892 20191126215102
+94.180.182.234 2 28 241171 20191129182548
+159.138.159.39 2 2 92209 20191129225117
+46.56.240.83 2 76 3842906 20191127132949
+178.122.47.122 10 168 6679006 20191126170058
+82.209.222.58 8 116 6900642 20191127095134
+178.120.47.170 4 56 479509 20191130115637
+178.121.66.63 8 62 1021904 20191128000444
+37.212.61.177 52 524 15003765 20191128154646
+178.120.21.84 0 2 72474 
+46.216.226.117 6 76 1527182 20191129114546
+178.120.13.187 0 2 296900 
+54.157.185.20 8 56 676298 20191129011117
+37.215.179.166 4 40 1183355 20191128143059
+116.28.13.170 2 2 158613 20191128033453
+87.252.225.187 10 18 872246 20191126062522
+95.221.125.98 2 68 633371 20191125100207
+46.53.240.115 0 4 313342 
+193.138.247.71 0 6 569196 
+165.84.189.114 0 12 462874 
+180.119.18.181 2 2 114248 20191128004750
+89.151.187.245 0 2 265446 
+185.233.194.154 0 2 1470632 
+113.76.227.138 2 2 91602 20191127211023
+37.44.98.215 8 156 8602589 20191128160603
+46.56.242.1 4 58 828732 20191126062445
+37.215.32.178 6 94 3378712 20191127213252
+159.138.128.216 2 2 93112 20191129193743
+62.133.53.124 2 2 109844 20191127054352
+91.231.42.238 0 2 84428 
+46.56.242.64 0 6 27646 
+178.123.205.46 4 58 828710 20191130225850
+37.213.166.255 4 58 828722 20191127225721
+212.98.173.148 0 2 120952 
+178.121.215.151 4 30 381956 20191128162404
+91.149.140.197 8 92 1929833 20191128134113
+37.215.26.187 4 58 828713 20191126201542
+217.18.62.51 2 2 110893 20191127031816
+39.81.193.150 2 2 89416 20191128051555
+46.56.234.85 10 118 1763753 20191126124847
+212.5.158.47 0 2 261878 
+37.215.107.67 0 2 79092 
+178.121.92.223 4 56 829984 20191127195605
+41.235.88.99 0 6 927808 
+37.215.0.14 4 30 381914 20191128232418
+37.215.38.175 20 316 8813773 20191127224949
+88.198.11.93 2 2 177694 20191128012234
+46.56.216.133 6 76 1499466 20191126205323
+37.212.203.138 6 58 627368 20191127145851
+178.168.156.58 0 2 296900 
+178.120.66.213 4 4 101434 20191130091534
+182.247.60.150 2 2 98528 20191128024916
+46.216.65.147 0 2 25610 
+178.120.255.158 8 60 866574 20191130150407
+46.56.202.30 4 48 1186806 20191126184150
+46.138.159.14 0 2 265446 
+49.79.194.102 2 2 100269 20191127215148
+14.169.186.121 12 12 585749 20191128165621
+178.123.96.138 4 40 1057730 20191130174851
+83.139.179.141 0 2 101590 
+178.120.9.15 4 58 828680 20191130164504
+117.90.78.212 2 2 98197 20191128043844
+159.138.157.10 2 2 98788 20191129215728
+81.9.105.22 6 64 2118874 20191125144817
+176.60.56.21 6 96 1812259 20191126004215
+37.212.66.114 4 58 828737 20191126211655
+37.44.106.0 8 90 3924039 20191129155454
+37.212.76.41 16 154 6170188 20191126224705
+194.158.216.242 0 4 921718 
+93.116.50.62 0 2 250100 
+217.114.224.227 2 14 136201 20191127064818
+159.138.157.28 2 2 113032 20191129153108
+159.138.148.197 2 2 94431 20191129140258
+95.24.5.197 2 44 1319428 20191126194455
+95.221.54.27 2 34 458786 20191130061926
+37.212.167.174 0 2 171878 
+119.134.108.170 2 2 113722 20191128002505
+34.222.228.120 4 70 984071 20191129065356
+178.120.44.240 4 36 474780 20191127193124
+178.121.47.71 4 42 908763 20191126223511
+106.46.2.225 2 2 94370 20191129204212
+176.98.70.43 0 2 126212 
+27.115.124.67 2 10 178899 20191129174546
+113.89.98.6 2 2 102943 20191127125759
+81.5.108.142 0 2 166706 
+37.9.68.157 0 2 314886 
+178.124.144.109 0 2 29408 
+188.0.128.226 0 2 211280 
+192.144.19.176 2 2 113041 20191125033801
+37.214.180.32 4 36 477882 20191130235738
+178.168.176.33 2 2 106280 20191128174102
+83.137.1.220 0 2 9174 
+124.152.185.143 2 2 101942 20191127103722
+117.66.88.39 2 2 114380 20191128023820
+46.211.152.48 4 38 821337 20191130124255
+117.68.230.202 2 2 99776 20191129180324
+37.212.196.114 4 58 828853 20191126173417
+178.120.32.103 4 70 655550 20191126102341
+159.138.159.246 2 2 108745 20191129214151
+112.6.35.138 2 2 103636 20191128022653
+93.85.93.146 30 454 19106937 20191125151657
+91.241.163.48 0 2 95986 
+192.23.188.6 4 40 1304284 20191127154446
+178.121.25.253 0 2 127708 
+31.24.91.181 4 38 666464 20191129120314
+178.168.176.198 0 2 110230 
+77.245.221.25 0 2 372928 
+95.105.27.1 6 112 6532359 20191128233733
+163.179.205.62 2 2 125506 20191129193951
+159.138.158.129 2 2 100354 20191129111630
+218.91.122.226 2 2 90911 20191125201509
+178.124.158.226 4 42 563096 20191128153129
+37.212.2.197 0 2 296900 
+95.153.130.168 6 94 3873699 20191130220743
+212.112.93.5 2 2 110927 20191130164243
+178.125.84.203 4 58 828731 20191127130920
+194.44.253.86 0 2 112010 
+87.252.252.62 0 2 333072 
+93.125.12.53 22 232 10198533 20191127171149
+86.57.178.111 0 4 183892 
+122.4.29.14 2 2 95814 20191128014139
+46.56.221.209 0 4 40164 
+138.197.134.79 2 2 0 20191130000033
+62.80.170.218 0 2 72474 
+79.137.130.107 4 42 9155040 20191125172000
+38.99.62.94 2 2 110929 20191130090651
+178.125.1.223 4 56 829978 20191126004847
+37.212.14.30 2 2 116735 20191130193026
+212.3.130.104 0 2 140870 
+213.184.245.0 4 54 1255599 20191129135305
+175.153.23.74 2 2 89620 20191130020650
+112.255.13.215 2 2 98980 20191129165249
+46.42.141.124 2 66 808341 20191125062227
+178.168.176.22 6 60 934863 20191128193537
+183.35.179.62 2 2 85047 20191128060357
+213.251.235.218 0 4 96526 
+46.216.172.24 30 380 14374536 20191130084947
+37.147.93.86 0 2 250572 
+159.138.152.210 2 2 117360 20191129200036
+159.138.152.222 2 2 102266 20191129215730
+37.212.88.71 6 38 575002 20191129221511
+37.212.89.255 44 636 15513403 20191128212541
+45.10.34.27 0 2 119514 
+37.215.50.76 4 68 1753190 20191128192331
+37.214.1.223 4 58 828739 20191128164431
+159.138.159.48 2 2 91880 20191129192852
+178.168.156.22 0 10 586406 
+83.149.19.143 0 2 236372 
+176.60.4.188 4 36 474763 20191127140836
+178.168.224.255 0 2 131500 
+95.155.52.231 0 2 265308 
+178.124.201.118 0 4 194232 
+94.127.201.190 0 2 97686 
+46.217.17.212 0 2 265308 
+60.168.25.22 2 2 115535 20191129180003
+178.121.20.8 0 2 845932 
+37.212.62.49 4 58 828723 20191127224746
+93.125.107.83 4 36 642823 20191129202626
+46.53.243.244 0 4 197794 
+178.173.115.110 0 2 78790 
+37.214.9.188 0 2 1286650 
+46.216.65.132 6 100 1248117 20191128204141
+37.212.52.5 0 2 29408 
+109.126.131.5 12 436 9850841 20191128200053
+37.212.20.147 4 38 691341 20191130085344
+178.93.151.218 0 2 107970 
+37.212.69.59 0 2 1207628 
+46.56.219.20 6 66 930988 20191125105439
+217.118.81.33 0 2 372928 
+188.162.65.72 0 2 83808 
+109.197.204.52 0 2 251372 
+46.56.238.213 6 70 959729 20191128140025
+95.46.46.38 6 72 1105910 20191125132407
+86.57.247.50 0 2 105444 
+91.224.45.25 4 30 381952 20191128172218
+178.120.10.90 16 150 3827349 20191126202919
+46.0.20.97 2 74 3244363 20191128140800
+94.242.54.119 4 4 365998 20191129051501
+134.17.185.93 4 58 828716 20191125140200
+46.56.235.156 6 76 1390646 20191126180242
+123.134.178.56 2 2 124665 20191129145858
+5.62.18.76 6 6 525402 20191128083951
+178.120.71.213 10 94 2235775 20191128072910
+212.98.190.113 0 2 128628 
+46.56.206.81 0 2 159388 
+185.118.76.130 2 2 165758 20191126071504
+46.53.248.164 0 8 2839144 
+5.136.66.136 0 2 89724 
+37.215.25.59 4 58 828826 20191129172342
+120.7.122.94 2 2 99808 20191127135544
+178.120.46.114 6 82 1636967 20191127095427
+46.56.237.73 4 80 5071081 20191128152258
+88.154.27.229 0 2 208898 
+212.66.63.120 4 42 533960 20191127072444
+178.91.66.238 0 2 935720 
+178.124.178.152 8 152 1918454 20191129100859
+176.60.146.41 0 2 823620 
+134.17.137.241 2 68 541943 20191126232909
+27.115.124.69 0 10 3672 
+212.58.120.209 0 2 287472 
+159.138.155.223 2 2 99368 20191129225402
+217.21.36.198 6 74 1845249 20191126123351
+87.252.229.32 8 102 3570604 20191128185230
+62.210.89.11 2 2 111006 20191129015121
+178.127.22.232 6 54 1245505 20191128091444
+164.177.232.107 4 30 381750 20191130204623
+46.216.160.9 4 44 788700 20191129144012
+178.120.179.130 4 56 829970 20191130103817
+178.120.16.75 0 6 632226 
+37.214.150.11 10 96 1853445 20191129183250
+173.252.127.35 0 22 2002740 
+178.168.158.53 0 2 935720 
+159.138.154.124 2 2 97754 20191129173416
+178.125.214.71 6 104 4810609 20191130174902
+89.151.136.63 0 2 816952 
+185.203.155.25 6 70 5908318 20191125092408
+37.214.164.121 0 2 256928 
+178.121.1.154 6 68 2591852 20191129234332
+37.29.88.149 0 2 372928 
+93.85.117.166 6 90 3245669 20191127103526
+2.58.194.142 0 2 110230 
+27.40.125.217 2 2 116365 20191128002743
+86.57.167.80 4 50 2160197 20191128161737
+178.127.88.203 18 244 7980357 20191130212325
+82.145.223.90 28 306 10987316 20191126213015
+37.214.25.102 4 56 829980 20191127195316
+82.202.161.133 2 2 111008 20191125152054
+93.85.72.55 0 2 11600 
+178.122.80.4 0 2 1472534 
+37.147.225.102 2 26 229163 20191129002824
+89.21.95.157 0 2 296900 
+178.140.161.164 2 50 333124 20191127210521
+159.138.154.87 2 2 117824 20191129105219
+37.215.37.138 4 60 679179 20191130160024
+37.214.54.227 4 58 828816 20191127181902
+183.25.132.123 2 2 90215 20191128013921
+159.138.155.177 2 2 95655 20191129122623
+37.215.54.43 8 134 4731448 20191129223431
+37.215.2.54 6 78 1114726 20191128163813
+37.214.74.41 0 2 112010 
+46.56.238.232 16 252 4120278 20191126125705
+37.212.213.5 0 2 159066 
+178.172.239.225 2 42 570858 20191129160942
+82.209.247.62 4 54 2781602 20191128113434
+46.216.224.79 12 136 2341206 20191125152852
+113.81.63.242 2 2 93977 20191127195507
+37.215.10.62 0 2 11258 
+188.163.101.75 0 2 2918786 
+176.209.229.112 4 58 566685 20191129102733
+37.214.33.153 0 2 349184 
+114.229.126.250 2 2 117719 20191129171125
+195.114.147.14 0 2 241956 
+159.138.149.63 2 2 103873 20191129211808
+114.230.65.178 2 2 93504 20191127104437
+82.140.206.192 8 122 4078575 20191127154353
+88.99.137.13 2 2 111016 20191127011842
+178.125.183.226 4 58 828734 20191127113354
+164.177.231.106 0 2 97116 
+178.121.195.212 0 2 63742 
+178.168.158.85 0 2 935720 
+125.106.145.188 2 2 104685 20191127221819
+37.212.192.32 4 42 560247 20191126201426
+109.126.146.141 4 30 381821 20191126121437
+37.212.53.116 22 290 7819023 20191127104104
+159.138.128.210 2 2 101877 20191127190820
+178.251.111.189 0 2 236372 
+117.63.122.133 2 2 126764 20191127130241
+37.212.58.254 4 70 731619 20191128222244
+46.56.242.194 0 2 111850 
+5.254.183.25 4 36 453102 20191130214154
+94.25.228.192 0 2 2918786 
+37.45.24.176 4 30 381861 20191129124404
+93.75.51.85 0 2 74920 
+109.60.146.23 0 2 701762 
+178.172.187.145 16 122 2677985 20191127091341
+159.138.152.130 2 2 97560 20191129210026
+95.57.89.24 0 2 110230 
+178.155.5.180 0 2 101590 
+86.57.176.251 0 4 1445716 
+178.125.195.226 11 105 3099534 20191127135126
+93.85.72.203 6 54 1458554 20191125094935
+178.120.50.88 32 472 15942660 20191127000334
+188.230.43.49 0 2 25610 
+178.168.224.172 0 2 296900 
+37.190.37.235 0 2 823620 
+159.138.157.229 2 2 109943 20191129221623
+37.212.32.134 4 58 828731 20191130100639
+85.115.224.135 4 48 972889 20191125125030
+178.120.41.95 8 110 4080168 20191130160317
+37.113.190.1 0 2 99606 
+217.118.90.61 4 38 676985 20191128092318
+94.180.138.27 2 28 243658 20191125105359
+159.138.156.254 2 4 421786 20191129143711
+159.138.155.195 2 2 113584 20191129213943
+183.165.40.23 2 2 90735 20191129222455
+82.193.98.249 0 2 69256 
+37.213.50.186 0 4 609158 
+87.252.225.189 14 118 2784920 20191126143050
+89.201.7.66 0 2 140504 
+37.212.77.3 0 2 136794 
+114.237.57.148 2 2 113006 20191127184707
+178.172.187.90 18 172 7957682 20191130201409
+178.120.6.4 6 80 770643 20191125104953
+46.56.236.30 10 168 4712446 20191128182726
+46.216.224.241 16 100 5331310 20191125203129
+118.140.62.166 0 10 915190 
+217.18.60.47 2 2 107144 20191130150055
+2.133.107.115 0 2 74498 
+46.53.177.223 4 58 828662 20191130121737
+178.120.144.172 0 2 173960 
+37.212.83.157 0 4 1445716 
+212.115.244.233 0 2 261878 
+176.60.56.54 4 36 477910 20191127124655
+213.221.12.221 0 2 84258 
+159.138.156.173 0 2 346490 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20191125 710 7252 214862003 94
+20191126 744 8030 240209860 100
+20191127 882 7096 227595469 131
+20191128 734 7786 237720625 121
+20191129 876 6798 223660213 160
+20191130 700 7239 220515330 90
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 9
+5mn-15mn 28
+2mn-5mn 27
+30s-2mn 62
+15mn-30mn 12
+0s-30s 548
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 449
+/fa/fonts/fontawesome-webfont.woff2 838 46105360 6 237
+/ 716 66080488 64 44
+/dveri/dver-garmoshka 274 14349442 115 11
+/dveri/mdf 196 11119191 19 12
+/dveri/massiv 174 10007133 2 4
+/dveri 89 4637795 5 4
+/dveri/arki-megkomnatnie 86 4473741 40 2
+/dveri/dveri-emal 66 3722902 1 1
+/furnitura-dvernay/dvernye-ruchki 52 2972535 10 8
+/ustanovka-dverey 46 2615771 7 8
+/furnitura-dvernay/roliki-dlya-razdvignyh-dverej-dovodchik 2 89763 1 1
+/dveri/pmc-11-do-dg 6 350316 3 1
+/dveri/aleksandrija-dg 6 283659 0 0
+/dveri/legno-39-eco 2 105090 1 1
+/dveri/estel 2 110259 0 0
+/dveri/flash-12-ch 2 97403 1 0
+/dveri/dveri-masiv-olha 2 111262 1 1
+/dveri/porta-23-3d 2 103689 1 1
+/dveri/flash-00 2 96986 0 0
+/dveri/dpg-odincovo 2 106666 0 1
+/vhodnye-dveri/optim-klaud-osina 2 94186 0 1
+/furnitura-dvernay/zamki-agb 4 178747 1 0
+/dveri/rumax-emal 22 1199222 0 1
+/furnitura-dvernay/furnitura-monte-bello 10 637042 2 2
+/dveri/uni-emal-dg15 2 108545 1 1
+/dveri/dveri-smorgon-hales 24 1421696 5 1
+/dveri/steklyannaya-dver-arkada 2 114285 1 0
+/vhodnye-dveri/magna-bel-05 3 118838 0 1
+/vhodnye-dveri/groff 12 656485 1 3
+/furnitura-dvernay/ds1015-system 4 204459 1 0
+/vhodnye-dveri/optim-praiid-wenge 2 100320 1 0
+/dveri/valencija-oka-do 4 210812 0 0
+/dveri/leo-struktur-do 2 98447 0 0
+/furnitura-dvernay/sistema-creplenia-knigka 16 753960 6 2
+/dveri/skladnie-v-4 2 107863 0 0
+/public/furnitura-dvernay/ruchri-loskstail 2 108771 1 0
+/dveri/uni-emal 2 108745 1 1
+/furnitura-dvernay/piza 2 98135 1 1
+/furnitura-dvernay/armadillo-silvia-2 2 94235 1 0
+/dveri/agata-ellada 2 103993 0 0
+/dveri/stroidetali-shpon-vega-7-bel-dub 6 307902 3 3
+/furnitura-dvernay/petlia-fh 2 94529 1 1
+/search 16 688049 1 1
+/dveri/leo-emal 4 202188 0 0
+/dveri/54u-profildors 2 116879 0 1
+/dveri/london-2-oka 2 99469 1 0
+/furnitura-dvernay/ardeja-tl 4 202572 2 1
+/furnitura-dvernay/furnitura-agb 8 421138 1 1
+/dacha-otdih 4 239711 0 0
+/dveri/dgaz-dg-emal 2 104170 0 0
+/furnitura-dvernay/v-26-al 2 93504 1 1
+/dveri/2-32u-profildors 2 115535 1 1
+/dveri/arka-portal-lux-1000 2 96188 0 1
+/dveri/diana03-dg 2 103355 1 0
+/dveri/porta-29-3d 2 103873 1 1
+/dveri/rumax-prestig-do-3-jasen-bel-zoloto 2 135406 1 0
+/furnitura-dvernay/drevo-zhizni 2 99776 1 1
+/dveri/rumax-astra-3d 2 113722 1 1
+/dveri/steklyannye-dveri 20 1174179 0 0
+/login 2 8046 0 0
+/dveri/agata-doors 6 266479 0 0
+/furnitura-dvernay/ruchka-ar-al 2 91881 0 0
+/vhodnye-dveri/m21-metalur-venge 2 97754 1 1
+/dveri/cho-premer-plus-bel 2 103054 1 0
+/dveri/steklanaja-dver-elena 2 114226 1 0
+/dveri/turin-strukturirov-do 2 98909 1 1
+/furnitura-dvernay/ruchka-allegro-onix-lux 2 100655 1 1
+//otdelka-i-remont-kvartiry-doma-dachi/oblicovka-kamnem 2 159618 0 0
+/about-company 4 254698 0 0
+/vhodnye-dveri/ultra-pro-venge 2 101366 0 0
+/dveri/emal15 2 104438 0 0
+/vhodnye-dveri/chikago-dub-shale-snegnij 4 203657 2 0
+/dveri/elegija-strukt 8 398246 0 2
+/dveri/doroteja-dg-dch 2 100746 1 0
+/dveri/emal-flesh 14 740405 1 2
+/dveri/ecoshpon-city 2 87595 1 1
+/dveri/do-dg-capry3ton-hales 2 102943 1 1
+/furnitura-dvernay/bari-lokit 2 96627 0 0
+/dveri/arka-megkomnatnaja-valencia 2 99775 0 1
+/dveri/dinmar 8 437247 1 1
+/vhodnye-dveri/milena 2 99806 1 1
+/dveri/rancho-dg 2 97693 1 1
+/dveri/profildoorsu 8 445441 3 2
+/furnitura-dvernay/orion-ql 2 99778 1 0
+/dveri/ynika-4-hales 2 109717 0 0
+/dveri/uni-tiffani7 2 105766 0 0
+/furnitura-dvernay/roliki-dlya-3015 2 92382 1 1
+/furnitura-dvernay/lokit 4 306555 0 0
+/furnitura-dvernay/furnitura-dlya-razdvizhnyh-dverej 24 1260238 6 3
+/furnitura-dvernay/dovodchik-8023aw-s-white 2 89620 1 1
+/dveri/skinni 6 361534 1 2
+/dveri/dg-vena 2 105679 1 1
+/vhodnye-dveri/vhodnye-dveri-promet-solomon 2 101192 1 0
+/dveri/pos14-odincovo 2 107229 1 0
+/dveri/pioneer-glass 8 417165 0 2
+/vhodnye-dveri/metalur-m29 2 97510 1 0
+/vhodnye-dveri/st-04 4 200341 1 0
+/furnitura-dvernay/pelikan-tl 2 101793 1 0
+/furnitura-dvernay/a-1416s017 4 191052 0 0
+/furnitura-dvernay/stopor-c7914-lockstail 2 94749 0 0
+/dveri/do-dg-tokio-5-hales 4 220919 0 0
+/dveri/2-15u-profildors 2 123486 1 1
+/vhodnye-dveri/stilo 2 99937 1 0
+/dveri/lirika-dg-emal 2 109407 0 0
+/vhodnye-dveri/m11-oreh-metalur 2 98528 1 1
+/vhodnye-dveri/ultra-lait-bel-dub 2 101462 1 0
+/furnitura-dvernay/dvernie-ruchki-s-zamkom 10 537574 1 2
+/dveri/rumax-dubrava-dg-3d 2 107311 1 1
+/dveri/krashenye-dveri 2 156900 0 1
+/furnitura-dvernay/riko-pc-whait-lokit 2 94015 1 1
+/public/ustanovka-dverey 2 201262 1 0
+/dveri/rumax-starodub-dg-3d 2 115193 1 1
+/furnitura-dvernay/ds1005-system 2 102180 0 0
+/vhodnye-dveri/london-zion 2 99207 0 0
+/vhodnye-dveri/tor 2 99841 1 1
+/dveri/romula-4-hales 2 112620 1 1
+/furnitura-dvernay/ruchri-loskstail 12 736238 3 3
+/dveri/deform-d16 2 107881 1 0
+/furnitura-dvernay/dovodchiki-rigel-ogranichiteli 6 382579 0 0
+/furnitura-dvernay/ruchka-zq-triniti 2 95711 1 0
+/dveri/stil-lesnoi-oreh 14 650991 1 4
+/dveri/serija-3d 2 90735 1 1
+/vhodnye-dveri/grand-350-6 2 101074 1 0
+/dveri/legno-22-evroshpon 2 103358 1 1
+/dveri/postavi-11-gl-temn 2 102398 0 1
+/furnitura-dvernay/ruchki-dlia-razdvignih-sy4340 2 100859 0 1
+/dveri/massiv-neokrashennij 14 768404 7 2
+/furnitura-dvernay/zavertka-pro-wc-lockstail 4 192121 1 2
+/dveri/uni-g11 2 104685 1 1
+/uslovia-soglashenia 4 242285 1 0
+/vhodnye-dveri/monako-lait-medvedev 2 99488 1 0
+/furnitura-dvernay/ruchka-dlja-kitaiskoi-dveri-a1416s 2 95352 0 0
+/dveri/trend-serija 2 161490 0 0
+/furnitura-dvernay/ruchka-ph-a222-1 4 182108 1 2
+/furnitura-dvernay/napravliauschaja-2m 2 90911 1 1
+/dveri/vega-9-cho-vilejka-belaja 2 103079 1 0
+/vhodnye-dveri/metalur-m26 4 194988 2 1
+/dveri/stekljannie 2 93520 0 0
+/vhodnye-dveri/monolit-nash-standart 4 202709 1 1
+/dveri/milano-arka 4 197049 0 2
+/furnitura-dvernay/ruchka-pro-palermo 2 94330 1 0
+/vhodnye-dveri/ioshkar-garda-belij-jasen 8 404138 0 0
+/dveri/porta-rb 4 220701 2 1
+/furnitura-dvernay/parma-sn-whait-lokit 2 94082 1 1
+/dveri/rumax-extra-dg-3d 2 112240 0 0
+/dveri/2-70u-profildors 2 124599 1 1
+//otdelka-i-remont-kvartiry-doma-dachi/obshivka-gipsokartonom-ili-panelyami-pvh 2 160936 0 0
+/dveri/ynika-1-v-b-hales 4 214456 0 0
+/vhodnye-dveri/kitayskie-dveri 2 95724 0 0
+/dveri/portal-diy 8 395722 0 3
+/otdelka-i-remont-kvartiry-doma-dachi/otdelochnye-raboty-pridadim-dekor-domy 2 94991 1 1
+/dveri/2-30u-profildors 2 96826 1 1
+/furnitura-dvernay/viktorija-lokit 2 100311 1 1
+/furnitura-dvernay/ostija-lokit 2 99680 1 1
+/vhodnye-dveri/sl-01 2 100564 1 0
+/dveri/vitrag-olha 2 100170 0 0
+/furnitura-dvernay/nakladka-astsq-system 2 93657 1 1
+/furnitura-dvernay/arni-zsh-05 2 95655 1 1
+/furnitura-dvernay/zascholka-170-lockstail 2 91880 1 1
+/public/dveri/forum-fm-02 6 618980 3 3
+/vhodnye-dveri/tehno-3 4 201114 0 1
+/vhodnye-dveri/zion 20 1080248 1 1
+/furnitura-dvernay/vanteg 12 725905 0 0
+/dveri/tango-dg-emal 2 109761 0 0
+/dveri/2-09u-profildors 2 127498 1 0
+/public/fa/fonts/fontawesome-webfont.woff2 4 227120 0 1
+/dveri/arka-britanskaja-n 2 100375 0 1
+/dveri/stil-milanskij-oreh 4 186063 1 1
+/dveri/stil-grusha-karat 6 279054 0 1
+/dveri/vals-dg-emal 6 325810 0 1
+/dveri/rumax-prezident-3d 2 108254 0 0
+/vhodnye-dveri/bari-st 4 199519 2 0
+/dveri/pmc-ol55 2 118990 1 0
+/dveri/trend-0 2 105515 1 1
+/dveri/arka-yfimka 2 96285 0 1
+/dveri/gasmin-2-dg-emal 2 104955 0 0
+/dveri/29u-profildors 2 122941 1 1
+/info-dostavka 46 2166013 1 9
+/dveri/vega-8-cho-vilejka-belaja 2 103052 0 0
+/furnitura-dvernay 32 1743072 7 3
+/dveri/serija-classiko 2 92137 1 1
+/dveri/rumax-porta1-dg-3d 2 107734 0 0
+/vhodnye-dveri/stalker 2 101085 0 0
+/dveri/legno 2 91602 1 1
+/vhodnye-dveri/natto 2 99814 1 0
+/furnitura-dvernay/ruchka-vega 4 184452 2 2
+/otdelka-i-remont-kvartiry-doma-dachi/malyarnye-raboty 2 93112 1 1
+/furnitura-dvernay/vreznye-zamki 4 243093 0 0
+/dveri/aleksandrija-dg-slon-kost 6 284372 0 0
+/furnitura-dvernay/ruchka-zamok-zv4-1-58 2 104551 1 1
+/furnitura-dvernay/bergamo-lokit 2 99851 1 1
+/dveri/tviggi-v4 4 216346 0 0
+/vhodnye-dveri/diagonal2-zion 2 101888 0 1
+/furnitura-dvernay/son 2 101226 1 0
+/dveri/stroidetali-olha 2 98159 1 1
+/dveri/garmoshka-rait-014 6 293417 0 3
+/dveri/rumax-astra-do-3d-kashtan 2 110684 1 1
+/dveri/palermo-arka 10 492821 2 2
+/dveri/shponirovannye 26 1624684 3 3
+/dveri/dveri-newdoor 24 1227359 0 0
+/furnitura-dvernay/furnitura-armadillo 8 494879 1 0
+/vhodnye-dveri/vhodnye-dveri-rossiyskie 4 227915 1 1
+/vhodnye-dveri/dveri-garda 12 676941 3 2
+/vhodnye-dveri/standart-550 2 100924 1 1
+/dveri/legno-21 2 101375 0 1
+/dveri/stil-belonij-dub 16 743870 0 3
+/vhodnye-dveri/dveri-ioshkar 2 94841 0 1
+/vhodnye-dveri/optim-praim-capuchino 2 99069 1 0
+/furnitura-dvernay/nora-m 18 886403 7 3
+/dver/kakie-ustanovit-dveri 2 114521 1 1
+/dveri/do-vena 2 106331 1 1
+/contact 40 2474324 5 17
+/vhodnye-dveri/metalux400 2 100314 0 0
+/public/sitemap 2 428282 1 1
+/furnitura-dvernay/ruchka-zamkoff-a 6 269157 1 3
+/dveri/dajana-oka 4 210050 0 0
+/furnitura-dvernay/6030-punto 2 102500 0 0
+/furnitura-dvernay/mars-ql 2 101386 1 1
+/dveri/pmc-ol-5 2 118404 1 1
+/dveri/rumax-bogema-3d 4 228351 0 0
+/dveri/garmoshka-majami-dub-starij 20 971224 4 4
+/furnitura-dvernay/modena-al 2 100354 1 1
+/dveri/massiv-olhi-pmc 4 218513 1 1
+/furnitura-dvernay/ruchka-zv2 2 101622 1 0
+/dveri/serija-porta-x 2 101919 1 1
+/vhodnye-dveri/rim-medvedev 2 103022 1 0
+/dveri/bluz-do-emal 2 104235 0 0
+/dveri/valensija-4-do 2 109150 1 0
+/furnitura-dvernay/petli-dvernye 6 393161 1 1
+/vhodnye-dveri/milano 2 100769 1 0
+/dveri/cortex-0 2 104066 0 1
+/vhodnye-dveri/metalux-m-60 6 301728 2 1
+/dveri/stella 2 109723 1 0
+/furnitura-dvernay/ruchki-punto 18 1055550 0 1
+/vhodnye-dveri/bremen-temidors 2 91439 1 1
+/dveri/shponirovannie-premium 46 2558996 4 3
+/vhodnye-dveri/troja-venge 6 304804 3 1
+/dveri/colourdisain 2 108510 0 0
+/vhodnye-dveri 24 1285374 2 2
+/dveri/steklyannaya-dver-lait-bronza 2 96260 0 0
+/dveri/emal16 2 104365 0 0
+/vhodnye-dveri/m6-metalur-belaj 2 98788 1 1
+/dveri/rumax-kamelija-do-oreh 2 114432 1 0
+/otdelka-i-remont-kvartiry-doma-dachi/ukladka-laminata-i-parketnoy-doski 2 91945 1 1
+/dveri/2-72u-profildors 2 125308 1 1
+/spisok-otzyvov 8 349354 0 2
+/vhodnye-dveri/sl-06 2 100574 1 0
+/dveri/masiv-dub 2 109894 1 1
+/furnitura-dvernay/ruchki-fuaro 10 549640 0 0
+/dveri/rumax-omega-3d 18 1427767 1 2
+/vhodnye-dveri/metalux-standart-m5 2 99871 1 1
+/dveri/502-3d 4 207910 2 0
+/vhodnye-dveri/tehno-1 2 100584 0 0
+/dveri/dver-6u-profildoors 2 125527 1 1
+/all-news 4 263427 0 0
+/furnitura-dvernay/ruchka-pro-catania 2 94370 1 1
+/dveri/favorit-do 2 102259 1 0
+/dveri/serija-status-pvh 4 240183 1 1
+/dveri/skladnie-dveri 8 381910 0 3
+/furnitura-dvernay/ruchki-zachelki-arni 6 388761 0 0
+/dveri/porta-27-x 4 233726 2 1
+/dveri/dg-3dcent 4 212244 0 1
+/dveri/rumax-premium-1-3d 2 114916 1 1
+/furnitura-dvernay/zascholka-100-lockstail 2 91823 1 1
+/dveri/uni-emal-dg-17 2 108605 1 0
+/vhodnye-dveri/metalur1 2 112325 1 0
+/dveri/profildoors-xn 4 226056 1 1
+/dveri/stroidetali-vega-3-cho 2 102308 1 1
+/vhodnye-dveri/titan-doors 6 307353 2 1
+/vhodnye-dveri/kinetik-medvedev 2 99368 1 1
+/dveri/uni-c3 2 103151 0 0
+/dver/vhodnye-dveri-v-minske 4 187776 2 1
+/dveri/el-porta 30 1629866 3 2
+/dveri/garmoshka-pioner-gluhaja 8 426440 2 1
+/dveri/emal9 2 104264 0 0
+//otdelka-i-remont-kvartiry-doma-dachi/otdelochnye-raboty-pridadim-dekor-domy 2 170060 0 1
+/public/dveri/massiv 4 233696 1 1
+/vhodnye-dveri/garda-stroigost-5rf 4 200324 1 1
+/dveri/legno-22 4 201842 1 1
+/vhodnye-dveri/snandart-m250 2 97941 1 1
+/dveri/venecija-emal 2 101678 0 0
+/dveri/massiv-duba-d6 2 103949 0 0
+/dveri/rumax-extra-1-dg-3d 2 112158 0 1
+/dveri/forum-fm-13 2 109628 1 1
+/dveri/city-1 2 104020 1 0
+/furnitura-dvernay/stopor-c5284-lockstail 8 381576 3 1
+/dveri/elegija-strukt-emal-do 4 198486 2 1
+/furnitura-dvernay/armadillo-silvia-4 2 170894 1 1
+/dveri/571-3d 2 103915 0 0
+/vhodnye-dveri/garda-muar-dub-sonoma 2 100923 0 0
+/dveri/garmoshka-majami-jasen-serij 12 542576 1 1
+/dveri/ferrara-struktur-do 2 99078 0 0
+/dveri/arka-milano-lesma 6 305552 1 2
+/vhodnye-dveri/mt-50-magna 2 92388 0 1
+/furnitura-dvernay/dvernye-zaschelki 14 865820 1 1
+/vhodnye-dveri/soprano-dub-shokplad 2 101139 0 1
+/dveri/razdvignaja-m1 2 107721 0 0
+/dveri/pmc-12-do-dg 4 133100 1 0
+/dveri/vitrag-do-strukturirov 2 98378 0 1
+/furnitura-dvernay/arni-zv2-05 2 95916 1 0
+/vhodnye-dveri/forpost-pb-90-1 2 101613 1 0
+/dveri/uni-c10 2 103108 1 1
+/dveri/porta-p26 2 113104 0 1
+/vhodnye-dveri/st-01 2 100243 1 0
+/vhodnye-dveri/bruno 2 99961 1 1
+/dveri/asterija02 4 214112 1 1
+/dveri/vega-5-cho-vilejka-belaja 2 99496 0 0
+/furnitura-dvernay/ruchka-kaya-cr 2 96602 1 0
+/dveri/deform-d15 2 107837 1 0
+/dveri/vitrag-dg-strukturirov 4 200182 0 0
+/vhodnye-dveri/milano-m1003-5e 2 100464 1 0
+/furnitura-dvernay/arni 20 1174743 2 2
+/dveri/galuzinaja-bel 2 92403 1 0
+/furnitura-dvernay/nova-sc 2 93638 0 0
+/dveri/stroidetali-shpon-delta-dg 2 103847 1 0
+/furnitura-dvernay/ruchka-ferara-lokit 2 98501 1 0
+/vhodnye-dveri/st-06 6 303386 0 0
+/furnitura-dvernay/arni-hh-01 2 95814 1 1
+/dveri/pmc-26-do-dg 4 231692 0 0
+/dveri/pmc-25-do-dg 2 114457 0 0
+/vhodnye-dveri/yltra-garag 2 104515 1 0
+/dveri/steklanaja-dver-natalia 2 114285 1 0
+/vacansii 4 172090 2 0
+/dveri/stil-venge 12 557079 1 3
+/dveri/pmc-13-do-dg 4 231362 1 1
+/dveri/rumax-tango-dg-3d 2 108653 0 1
+/dveri/vega-5-cho-vilejka-neokr 2 99607 0 0
+/dveri/do-dg-art-t-hales 2 107862 1 1
+/vhodnye-dveri/novosel-2 2 100459 1 1
+/furnitura-dvernay/nakladka-kvadrat-arni 2 94036 1 1
+/dveri/massiv-olha-oka 36 2078183 4 1
+/furnitura-dvernay/napravl-sdov-2 4 186203 2 0
+/furnitura-dvernay/arni-zsh-01 2 96004 1 1
+/dveri/skladnaja-m1 2 107949 0 0
+/dveri/rumax-premium-3d 2 115185 0 0
+/furnitura-dvernay/liberto-ml 2 101381 0 1
+/dveri/do-triest-hales 2 101942 1 1
+/dveri/arka-valencija 8 363975 0 1
+/dveri/garmoshka-majami-bel-glianec 16 721754 3 4
+/dveri/marta-dg-emal 6 310818 0 0
+/furnitura-dvernay/nakladka-kruglaja-arni-al 2 94464 1 1
+/dveri/pg-versal-sosna 2 98769 0 0
+/dveri/stroidetali-vega-2-cho 2 102608 1 1
+/dveri/rumax-dgaz-3d 2 107482 0 0
+/vhodnye-dveri/metalur-m4 2 97560 1 1
+/vhodnye-dveri/medvedev 6 326918 1 1
+/dveri/troyana-oka 2 107063 1 0
+/dveri/porta-21-x 2 111585 1 1
+/dveri/premer-plus-sosna-emal-do 2 98743 0 0
+/dveri/parma-do-emal 2 107586 1 1
+/dveri/dgaz1-dg-emal 12 663726 0 0
+/dveri/classik4-olha-dub 4 219113 1 1
+/dveri/razdvijnie-tviggi 4 175062 0 0
+/vhodnye-dveri/nash-standart 12 664828 2 2
+/garantiya 6 321065 0 2
+/dveri/steklyannaya-dver-books 2 113042 0 1
+/dveri/shpon-exkluziv-dg 2 102523 0 0
+/furnitura-dvernay/v-28-al 2 89416 1 1
+/furnitura-dvernay/nakladka-zn-et-lockstail 2 91574 1 1
+/vhodnye-dveri/vhodnye-dveri 2 116332 0 1
+/dveri/dveri-shpon-premium 6 319123 1 0
+/vhodnye-dveri/temi-dors 8 446546 0 1
+/public/contact 6 497112 2 3
+/dveri/estel-versal-dg 2 99524 0 0
+/dveri/rumax-karolina-d-oreh 2 113858 0 0
+/furnitura-dvernay/salvija-arni 2 99674 1 1
+/vhodnye-dveri/zion-stefani 2 98079 0 0
+/dveri/laminatin-primaporta 4 317563 1 1
+/dveri/trio-venge-hales 2 108987 1 1
+/dveri/massiv-sosna 18 1031018 6 3
+/dveri/ynika-3-hales 4 230121 2 0
+/dver/new-hales 8 449854 1 3
+/dveri/porta23-neokr 2 97724 1 1
+/dveri/flash-12 2 97130 0 1
+/dveri/laminirovannye-odincovo 6 310271 3 1
+/dveri/monet-dg 2 102993 0 1
+/dveri/arka-modern 2 98980 1 1
+/furnitura-dvernay/system 10 625302 0 0
+/vhodnye-dveri/metalux 20 1165108 7 5
+/dveri/rumax-cezar-dg-3d 4 217391 1 0
+/dveri/porta-21-3d 2 103691 0 1
+/dveri/2-18u-profildors 2 126764 1 1
+/furnitura-dvernay/6020-punto 2 101295 1 0
+/dveri/arka-romanskaja-neokrash 2 92914 0 0
+/dveri/vega-10-bel-vosk 2 99346 1 0
+/dveri/dvery-rumax 8 457078 1 1
+/vhodnye-dveri/vhodnye-dveri-belorusskie 14 788945 5 4
+/furnitura-dvernay/ds1000-system 6 306818 2 1
+/dver/news-metalux 2 89092 0 0
+/dveri/2-10u-profildors 2 127539 1 1
+/dveri/vega-10-svetlij-oreh 2 99226 0 0
+/dveri/5u-profildors 2 125506 1 1
+/dveri/garmoshka-stil-belij 10 481164 0 3
+/dveri/pallada-dg-emal 2 104478 0 0
+/dveri/uni 6 328790 2 2
+/furnitura-dvernay/ruchka-giada 2 99564 1 1
+/dveri/uni-dpg 4 210218 0 2
+/dveri/doje3-hales 2 114380 1 1
+/vhodnye-dveri/rasprodaga 12 556187 0 0
+/vhodnye-dveri/dominanta-bel-jasen 8 404861 3 1
+/dver/laminirovan-poly 2 99808 1 1
+/dveri/emal8 2 104305 0 0
+/vhodnye-dveri/st-09 2 100420 1 1
+/dveri/stil-dub-starij 10 464904 3 1
+/dveri/klassik-dg-rostra 4 209640 0 1
+/dveri/105-xn 2 108552 1 0
+/vhodnye-dveri/luna 4 201348 2 0
+/dveri/vega-6-cho-vilejka 2 104494 1 1
+/vhodnye-dveri/garda-carga-lazer-listv-beg 16 811902 6 4
+/dveri/arka-kazanka 6 290609 1 3
+/dveri/stroidetali-rancho 4 195594 1 2
+/furnitura-dvernay/ruchki-dlya-vhodnyh-dverej 20 1036463 6 0
+/vhodnye-dveri/max-nova 2 102410 1 0
+/dveri/legno-21-evroshpon 2 103271 1 1
+/dveri/mdf-techno-laminatin 2 91895 1 1
+/dveri/arka-romanskaja 4 202656 0 0
+/dveri/provans 4 200543 1 1
+/vhodnye-dveri/vhodnye-dveri-groff-c2-100 2 103007 1 0
+//otdelka-i-remont-kvartiry-doma-dachi/ukladka-laminata-i-parketnoy-doski 2 164936 0 0
+/vhodnye-dveri/optim-praiid-capuchino 8 401585 4 0
+/dveri/leo-oka 2 105150 0 0
+/dveri/stroidetali-shpon-cho-gutta 2 103787 1 1
+/dveri/2-75u-profildors 2 124665 1 1
+/vhodnye-dveri/lacio-2 2 97736 0 0
+/vhodnye-dveri/e40 2 93937 0 0
+/dveri/stil-vishnja 8 371148 0 1
+/dveri/alikante-hales 4 233167 2 0
+/dveri/7-besstekla-postavy-neokrashenna 2 103539 0 0
+/dver/remont-mezhkomnatnyh-dverei 28 1623637 14 2
+/dveri/62x-modern 2 116405 1 1
+/furnitura-dvernay/petlja-th 2 94383 1 1
+/dveri/ecoshpon-cyti-2 2 104073 1 1
+/furnitura-dvernay/ruchka-zamok-allur-zv-103-3 2 103636 1 1
+/dveri/dveri-knigka-profildors 2 90046 1 1
+/fonts/admin/fonts/fonts/fontawesome-webfont.woff2 2 133248 0 1
+/furnitura-dvernay/arni-tt-01 2 95923 1 1
+/dveri/favorit-milan 2 93089 1 0
+/furnitura-dvernay/kapri-sn-pc-lokit 2 93977 1 1
+/dveri/porta-p2 2 112436 1 0
+/dveri/legno-evro-shpon 2 93458 1 1
+/dveri/2-41u-profildors 4 228938 1 2
+/dveri/granta005 2 107505 1 0
+/dveri/570-3d 2 113148 0 0
+/vhodnye-dveri/st-05 2 100651 1 0
+/dveri/agata-izabella 2 104114 0 0
+/vhodnye-dveri/vhodnye-dveri-belarus 46 2626920 4 2
+/vhodnye-dveri/cezar-premium-plus 2 177694 1 1
+/dveri/dveri-stroidetali 14 775333 0 0
+/vhodnye-dveri/zion-anabel 2 98720 1 0
+END_SIDER
