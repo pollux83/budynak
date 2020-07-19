@@ -14,7 +14,6 @@ yarn-error.log
 0b.php
 artisan
 civileer.php
-composer.json
 composer.lock
 debian-d
 google43d0ade7eb901981.html
@@ -33,3 +32,5 @@ webpack.mix.js
 /public/images
 sitemap
 /webstat
+/public/vendor
+/thumbs
