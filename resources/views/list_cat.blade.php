@@ -71,7 +71,7 @@
                             <header>
                                 <h2>{{ $product->name }}</h2>
                             </header>
-                            @if(array_key_exists('discount', $product) && mb_strlen($product->discount) > 0)
+                            @if(!empty($product->discount) && mb_strlen($product->discount) > 0)
                                 <span class="price">
                                     <span class="discount">Акция!</span>
                                     <?php

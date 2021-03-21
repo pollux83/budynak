@@ -33,4 +33,4 @@ webpack.mix.js
 sitemap
 /webstat
 /public/vendor
-/thumbs
+/public/thumbs/

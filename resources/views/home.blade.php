@@ -87,8 +87,10 @@
                     @elseif($key == 4)
                     <div class="c-1 l-c mt20">
                         <header class="prodCat">
+                            <?php if(isset($cat[$key])): ?>
                             <h2>{{ $cat[$key]->name }}</h2>
                             <a href="{{ $cat[$key]->alias }}" class="tr-a">Посмотреть все</a>
+                            <?php endif; ?>
                         </header>
                         <ul class="products pr-629">
                         @foreach($subcats as $uri => $subcat)<!--

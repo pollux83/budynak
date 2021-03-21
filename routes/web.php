@@ -1,7 +1,10 @@
 <?php
-Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
-    \UniSharp\LaravelFilemanager\Lfm::routes();
-});
+Route::get('/laravel-filemanager', '\UniSharp\LaravelFilemanager\Controllers\LfmController@show');
+Route::post('/laravel-filemanager/upload', '\UniSharp\LaravelFilemanager\Controllers\UploadController@upload');
+//Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
+//    \UniSharp\LaravelFilemanager\Lfm::routes();
+//});
+
 Route::get('/filemanager/dialog.php', function(){
     return include base_path(). '/filemanager/dialog.php';
 })->middleware('auth');

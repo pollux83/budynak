@@ -58,8 +58,7 @@
                                         <span class="required">*</span>
                                     </label>
                                     <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="alias" id="alias" pattern="[a-z0-9\-]+"
-                                               required="required"
+                                        <input type="text" name="alias" id="alias" pattern="[a-z0-9\-]+" required="required"
                                                class="form-control col-md-7 col-xs-12">
                                     </div>
                                 </div>
@@ -78,9 +77,7 @@
                                     <div class="col-md-9 col-sm-9 col-xs-12">
                                         <select class="form-control" name="brand_id" required="required">
                                             @foreach($brands as $brand)
-                                                <option value="{{ $brand->id }}">{{ $brand->name }}(id:{{ $brand->id }}
-                                                    )
-                                                </option>
+                                                <option value="{{ $brand->id }}">{{ $brand->name }}(id:{{ $brand->id }})</option>
                                             @endforeach
                                         </select>
                                     </div>
@@ -90,12 +87,11 @@
                                     <label class="control-label col-md-3 col-sm-3 col-xs-12">Category
                                         <span class="required">*</span></label>
                                     <div class="col-md-9 col-sm-9 col-xs-12">
-                                        <select class="select2_multiple form-control" multiple="multiple"
-                                                name="category_id[]" required="required">
+                                        <select class="select2_multiple form-control" multiple="multiple" name="category_id[]" required="required">
                                             @foreach($categories as $category)
-                                                <option value="{{ $category->id }}">{{ $category->name }}
-                                                    (id:{{ $category->id }})
-                                                </option>
+                                            <option value="{{ $category->id }}">{{ $category->name }}
+                                                (id:{{ $category->id }})
+                                            </option>
                                             @endforeach
                                         </select>
                                     </div>
@@ -116,41 +112,34 @@
                                         <span class="required">*</span>
                                     </label>
                                     <div class="col-md-9 col-sm-9 col-xs-12">
-                                        <input name="keywords" id="tags_1" type="text" class="tags form-control"/>
-                                        <div id="suggestions-container"
-                                             style="position: relative; float: left; width: 250px; margin: 10px;"></div>
+                                        <input name="keywords" id="tags_1" type="text" class="tags form-control" />
+                                        <div id="suggestions-container" style="position: relative; float: left; width: 250px; margin: 10px;"></div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Meta description <span
-                                                class="required">*</span>
+                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Meta description <span class="required">*</span>
                                     </label>
                                     <div class="col-md-9 col-sm-9 col-xs-12">
-                                        <textarea name="meta_description" class="form-control" rows="3"
-                                                  required="required"></textarea>
+                                        <textarea name="meta_description" class="form-control" rows="3" required="required"></textarea>
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <label class="control-label col-md-3 col-sm-3 col-xs-12"
-                                           for="discount">Discount </label>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" id="discount" name="discount"
-                                               class="form-control col-md-7 col-xs-12">
-                                    </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="discount">Discount </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" id="discount" name="discount"
+                                           class="form-control col-md-7 col-xs-12">
                                 </div>
-                                <div class="form-group">
-                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Date End </label>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input id="date_end" name="date_end"
-                                               class="date-picker form-control col-md-7 col-xs-12" type="date">
-                                    </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Date End </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input id="date_end" name="date_end" class="date-picker form-control col-md-7 col-xs-12" type="date">
                                 </div>
+                            </div>
                                 <div class="form-group">
                                     <label class="control-label col-md-3 col-sm-3 col-xs-12">Date Start </label>
                                     <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <input id="date_start" name="date_start"
-                                               class="date-picker form-control col-md-7 col-xs-12" type="date"
-                                               value="{{ date('Y-m-d') }}">
+                                        <input id="date_start" name="date_start" class="date-picker form-control col-md-7 col-xs-12" type="date" value="{{ date('Y-m-d') }}">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -158,7 +147,7 @@
                                 </div>
 
                                 <!--block upload image -->
-                            <!--div class="x_panel">
+                                <div class="x_panel">
                                     <div class="col-md-6 col-md-offset-3">
                                         <div class="input-group block-image">
                                           <span class="input-group-btn">
@@ -179,28 +168,12 @@
                                 </div>
                                 <button class="btn btn-primary add_images" type="button"><i
                                             class="glyphicon glyphicon-plus"></i></button>
-
-                                    <input id="thumbnail" class="form-control" type="text" name="filepath">
-                                </div>
-                                <img id="holder" style="margin-top:15px;max-height:100px;"-->
-
-                                <div class="input-group">
-   <span class="input-group-btn">
-     <a id="lfm" data-input="thumbnail" data-preview="holder" class="btn btn-primary">
-       <i class="fa fa-picture-o"></i> Choose
-     </a>
-   </span>
-                                    <script src="{{secure_asset('/vendor/laravel-filemanager/js/stand-alone-button.js')}}"></script>
-                                    <script>
-                                        //$('#lfm').filemanager('image');
-                                        $('#lfm').filemanager('file');
-                                    </script>
-                                <div class="ln_solid"></div>
-                                <div class="form-group">
-                                    <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                                        <button type="submit" class="btn btn-success">Create</button>
+                                    <div class="ln_solid"></div>
+                                    <div class="form-group">
+                                        <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                                            <button type="submit" class="btn btn-success">Create</button>
+                                        </div>
                                     </div>
-                                </div>
                             </form>
                         </div>
                     </div>
@@ -214,22 +187,22 @@
     </div>
 
     </div>
-    </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->                  
     <!-- footer content -->
     @include('admin.layouts.footer')
     <!-- /footer content -->
     <!-- /page content -->
-    <div class="modal fade" class="myModal" style="margin-left: -350px;">
-        <div class="modal-dialog">
-            <div class="modal-content" style="width: 780px">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Modal title</h4>
-                </div>
-                <div class="modal-body" style="padding:0px; margin:0px; width: 700px;">
-                    <iframe width="765" height="550" frameborder="0"
-                            src="" frameborder="0" style="overflow: scroll; overflow-x: hidden; overflow-y: scroll; ">
-                    </iframe>
+<div class="modal fade" class="myModal" style="margin-left: -350px;">
+<div class="modal-dialog">
+  <div class="modal-content" style="width: 780px">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <h4 class="modal-title">Modal title</h4>
+    </div>
+    <div class="modal-body" style="padding:0px; margin:0px; width: 700px;">
+      <iframe  width="765" height="550" frameborder="0"
+                                                    src="" frameborder="0" style="overflow: scroll; overflow-x: hidden; overflow-y: scroll; ">
+                                                </iframe>
 @endsection

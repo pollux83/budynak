@@ -35,7 +35,7 @@ return [
     // Ex: The private folder of user will be named as the user id.
     'private_folder_name'      => UniSharp\LaravelFilemanager\Handlers\ConfigHandler::class,
 
-    'allow_shared_folder'      => true,
+    'allow_shared_folder'      => false,
 
     'shared_folder_name'       => 'shares',
 
@@ -114,7 +114,7 @@ return [
      */
 
     // If true, image thumbnails would be created during upload
-    'should_create_thumbnails' => true,
+    'should_create_thumbnails' => false,
 
     'thumb_folder_name'        => 'thumbs',
 
