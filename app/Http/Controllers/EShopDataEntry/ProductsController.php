@@ -20,6 +20,8 @@ use Illuminate\Support\Facades\DB;
 use App\ProductOptionValue;
 use App\AliasProduct;
 use App\ProductImage;
+use Itstructure\GridView\DataProviders\EloquentDataProvider;
+
 //use Spatie\LaravelImageOptimizer\Facades\ImageOptimizer;
 
 class ProductsController extends Controller
@@ -33,6 +35,18 @@ class ProductsController extends Controller
             ->select('products.*', 'brands.name as brand', 'list_products.status')
             ->groupBy('products.id')
             ->paginate(25);*/
+
+        if(isset($_GET['filters']['category'])){
+            $ids = ProductCategory::where('category_id', $_GET['filters']['category'])->pluck('product_id')->toArray();
+            $listProduct = ListProduct::with('brand', 'categories')->select(['list_products.*', 'brands.name', 'categories.name as category'])->whereIn('id', [$ids[0]]);
+            unset($_GET['filters']['category']);
+        } else {
+            $listProduct = ListProduct::query();
+        }
+
+        $dataProvider = new EloquentDataProvider($listProduct//with('brand', 'categories')->select(['list_products.*', 'brands.name', 'categories.name'])
+        );
+
         $product = DB::select('SELECT
               list_products.status,
               list_products.name,
@@ -53,7 +67,7 @@ class ProductsController extends Controller
         $product = $product instanceof Collection ? $product : Collection::make($product);
         $paginate = new LengthAwarePaginator($product->forPage($page, $perPage), $product->count(), $perPage, $page, $option);
         $paginate->setPath('products');
-        return view('admin.e_shop_data_entry.products', ['products' => $paginate]);
+        return view('admin.e_shop_data_entry.products', ['products' => $paginate, 'dataProvider' => $dataProvider]);
     }
 
     public function create()

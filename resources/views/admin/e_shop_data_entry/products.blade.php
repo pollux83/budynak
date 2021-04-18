@@ -46,7 +46,99 @@
                             <div class="clearfix"></div>
                         </div>
                         <div class="x_content">
-                            <table class="table table-striped responsive-utilities jambo_table">
+                            <button class="btn btn-default"
+                                    onclick="window.location.href = '{{ secure_asset('admin/products') }}'"> Очистить
+                                фильтр
+                            </button>
+                            <?php
+                            $categories = \App\Category::all()->pluck('name', 'id');
+                            $brands = \App\Brand::all()->pluck('name', 'id');
+                            $gridData = [
+                                'dataProvider' => $dataProvider,
+                                'useFilters' => true,
+                                'columnFields' => [
+                                    'id',
+                                    'name',
+                                    [
+                                        'label' => 'Активный',
+                                        'attribute' => 'status',
+                                        'value' => function ($row) {
+                                            return $row->getStatusLabel();
+                                        },
+                                        'filter' => [
+                                            'class' => Itstructure\GridView\Filters\DropdownFilter::class,
+                                            'data' => [0 => 'Нет', 1 =>'Да'],
+                                        ]
+                                    ],
+                                    [
+                                        'label' => 'Цена',
+                                        'attribute' => 'price',
+                                        'format' => Itstructure\GridView\Columns\BaseColumn::FORMATTER_HTML,
+                                        'value' => function ($row) {
+                                            return "<input type=\"number\" step=\"any\" min=\"0\" name=\"price\" value=\"$row->price\"><button onclick=\"changePrice(this);\">Update</button>";
+                                        }
+                                    ],
+                                    [
+                                        'label' => 'Категории',
+                                        'attribute' => 'category_id',
+                                        'value' => function ($row) {
+                                            $output = [];
+                                            foreach ($row->categories()->get() as $category) {
+                                                $output[] = $category->name;
+                                            }
+                                            return implode(', ', $output);
+                                        },
+                                        'filter' => [
+                                            'class' => Itstructure\GridView\Filters\DropdownFilter::class,
+                                            'data' => $categories
+                                        ]
+                                    ],
+                                    [
+                                        'label' => 'Брэнд',
+                                        'attribute' => 'brand_id',
+                                        'value' => function ($row) {
+                                            $output = [];
+                                            foreach ($row->brand()->get() as $brand) {
+                                                $output[] = $brand->name;
+                                            }
+                                            return implode(', ', $output);
+                                        },
+                                        'filter' => [
+                                            'class' => Itstructure\GridView\Filters\DropdownFilter::class,
+                                            //'name' => 'Категории',
+                                            'data' => $brands,
+                                        ]
+                                    ],
+                                    [
+                                        'label' => '', // Optional
+                                        'class' => Itstructure\GridView\Columns\ActionColumn::class, // Required
+                                        'actionTypes' => [ // Required
+                                            'view' => function ($data) {
+                                                return '/admin/products/' . $data->id . '_copy/edit';
+                                            }, 'edit' => function ($data) {
+                                                return '/admin/products/' . $data->id . '/edit';
+                                            },
+                                            [
+                                                'class' => Itstructure\GridView\Actions\Delete::class, // Required
+                                                'url' => function ($data) { // Optional
+                                                    return '#';//'/admin/pages/' . $data->id . '/delete';
+                                                },
+                                                'htmlAttributes' => [ // Optional
+                                                    'target' => '_blank',
+                                                    'class' => 'del',
+                                                    'style' => 'color: yellow; font-size: 16px;',
+                                                    'onclick' => 'return window.confirm(" Удалить?"); '
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+
+
+                                ]
+                            ];
+                            ?>
+                            @gridView($gridData)
+                        <!--                            <table class="table table-striped responsive-utilities jambo_table">
                                 <thead>
                                 <tr class="headings">
                                     <th>ID</th>
@@ -61,20 +153,20 @@
 
                                 <tbody>
                                 @foreach($products as $product)
-                                    @if($product->id %2 == 0)
-                                        <tr class="even pointer">
-                                    @else
-                                        <tr class="odd pointer">
-                                    @endif
-                                            <td class=" ">{{ $product->id }}</td>
+                            @if($product->id %2 == 0)
+                                <tr class="even pointer">
+@else
+                                <tr class="odd pointer">
+@endif
+                                    <td class=" ">{{ $product->id }}</td>
                                             <td class=" ">{{ $product->name }}</td>
                                             <td class=" "><input type="text" class="form-control" name="title" value="@if(isset($product->title)){{ $product->title }}@else null @endif"><button onclick="changeTitle(this);">Update</button></td>
                                             @if($product->status == 1)
-                                            <td class=" ">On</td>
-                                            @else
-                                            <td class=" ">Off</td>
-                                            @endif
-                                            <td class=" "><input type="number" step="any" min="0" name="price" value="{{ $product->price }}"><button onclick="changePrice(this);">Update</button></td>
+                                <td class=" ">On</td>
+@else
+                                <td class=" ">Off</td>
+@endif
+                                    <td class=" "><input type="number" step="any" min="0" name="price" value="{{ $product->price }}"><button onclick="changePrice(this);">Update</button></td>
                                             <td class=" last"><a href="{{ secure_url('admin/products/'.$product->id.'_copy/edit') }}">Copy</a>
                                                 | <a href="{{ secure_asset('admin/products/'.$product->id.'/edit') }}">Edit</a>
                                                 | <span class="del">Delete</span></td>
@@ -83,7 +175,7 @@
                                 </tbody>
                             </table>
 
-                            {{ $products->links() }}
+                            {{ $products->links() }}-->
 
                         </div>
                     </div>

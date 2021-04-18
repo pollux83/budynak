@@ -8,7 +8,7 @@ class Product extends Model
 {
     protected $primaryKey = 'id';
     protected $table = 'products';
-    protected $fillable = array('name', 'title','meta_description', 'keywords', 'description','price','brand_id','created_at_ip', 'updated_at_ip');
+    protected $fillable = array('name', 'title','meta_description', 'keywords', 'status', 'description','price','brand_id','created_at_ip', 'updated_at_ip');
 
     public function brand()
     {

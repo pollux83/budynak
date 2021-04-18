@@ -15,4 +15,25 @@ class ListProduct extends Model
         return $this->belongsTo('App\AliasProduct', 'id');
     }
 
+    /**
+     * @return string
+     */
+    public function getStatusLabel(): string
+    {
+        return ($this->status == 1) ? 'Да': 'Нет';
+    }
+
+    public function brand()
+    {
+        return $this->belongsTo('App\Brand');
+    }
+    public function categories()
+    {
+        return $this->belongsToMany('App\Category','product_categories','product_id','category_id');
+    }
+    public function product_category()
+    {
+        return $this->belongsToMany('App\ProductCategory');
+    }
+
 }
