@@ -170,6 +170,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin'], function () {
     //delete
     Route::delete('options', 'EShopDataEntry\OptionsController@destroy');
     Route::delete('products', 'EShopDataEntry\ProductsController@destroy');
+    Route::get('product/{id}/delete', 'EShopDataEntry\ProductsController@destroy');
     Route::delete('categories', 'EShopDataEntry\CategoriesController@destroy');
     Route::delete('brands', 'EShopDataEntry\BrandsController@destroy');
     Route::delete('values', 'EShopDataEntry\ValuesController@destroy');

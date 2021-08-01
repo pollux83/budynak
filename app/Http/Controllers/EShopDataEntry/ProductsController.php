@@ -2,24 +2,25 @@
 
 namespace App\Http\Controllers\EShopDataEntry;
 
-use App\ListBrand;
-use App\ProductDiscount;
-use App\ProductOption;
-use Illuminate\Http\Request;
-use App\Http\Controllers\Seo\ImageOptimizeController;
-//use App\Http\Requests;
-use Illuminate\Support\Collection;
-use Illuminate\Pagination\LengthAwarePaginator;
-use App\Http\Controllers\Controller;
-use App\Product;
-use App\ListProduct;
-use App\Brand;
-use App\Category;
-use App\ProductCategory;
-use Illuminate\Support\Facades\DB;
-use App\ProductOptionValue;
 use App\AliasProduct;
+use App\Http\Controllers\Controller;
+use App\Http\Controllers\Seo\ImageOptimizeController;
+use App\ListBrand;
+use App\ListProduct;
+use App\Product;
+use App\ProductCategory;
+use App\ProductDiscount;
 use App\ProductImage;
+use App\ProductOption;
+use App\ProductOptionValue;
+use Illuminate\Http\Request;
+use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\DB;
+use Itstructure\GridView\DataProviders\EloquentDataProvider;
+
+//use App\Http\Requests;
+
 //use Spatie\LaravelImageOptimizer\Facades\ImageOptimizer;
 
 class ProductsController extends Controller
@@ -33,6 +34,18 @@ class ProductsController extends Controller
             ->select('products.*', 'brands.name as brand', 'list_products.status')
             ->groupBy('products.id')
             ->paginate(25);*/
+
+        /*if(isset($_GET['filters']['category'])){
+            $ids = ProductCategory::where('category_id', $_GET['filters']['category'])->pluck('product_id')->toArray();
+            $listProduct = ListProduct::with('brand', 'categories')->select(['list_products.*', 'brands.name', 'categories.name as category'])->whereIn('id', [$ids[0]]);
+            unset($_GET['filters']['category']);
+        } else {
+            $listProduct = ListProduct::query();
+        }*/
+
+        $dataProvider = new EloquentDataProvider(ListProduct::query()//with('brand', 'categories')->select(['list_products.*', 'brands.name', 'categories.name'])
+        );
+
         $product = DB::select('SELECT
               list_products.status,
               list_products.name,
@@ -53,7 +66,7 @@ class ProductsController extends Controller
         $product = $product instanceof Collection ? $product : Collection::make($product);
         $paginate = new LengthAwarePaginator($product->forPage($page, $perPage), $product->count(), $perPage, $page, $option);
         $paginate->setPath('products');
-        return view('admin.e_shop_data_entry.products', ['products' => $paginate]);
+        return view('admin.e_shop_data_entry.products', ['products' => $paginate, 'dataProvider' => $dataProvider]);
     }
 
     public function create()
@@ -447,20 +460,40 @@ class ProductsController extends Controller
         return back()->with('message', 'Product options update');
     }
 
-    public function destroy(Request $request)
+    /**
+     * @param Request $request
+     * @param null $id
+     * @return string
+     * @throws \Exception
+     */
+    public function destroy(Request $request, $id = null)
     {
-        $id = $request->only('id')['id'];
-        ListProduct::destroy($id);
-        ProductCategory::where('product_id', $id)->delete();
-        ProductOption::where('product_id', $id)->delete();
-        ProductOptionValue::where('product_id', $id)->delete();
-        ProductImage::where('product_id', $id)->delete();
-        ProductDiscount::where('product_id', $id)->delete();
-        AliasProduct::destroy($id);
+        if (is_null($id)) {
+            $id = $request->only('id')['id'];
+        }
         $product = Product::find($id);
-        $product->delete();
+        if (!$product) {
+            throw new \Exception("Не найдена модель");
+        }
 
-        return 'Remove';
+        $result = DB::transaction(function () use ($id, $product) {
+            ListProduct::destroy($id);
+            ProductCategory::where('product_id', $id)->delete();
+            ProductOption::where('product_id', $id)->delete();
+            ProductOptionValue::where('product_id', $id)->delete();
+            ProductImage::where('product_id', $id)->delete();
+            ProductDiscount::where('product_id', $id)->delete();
+            AliasProduct::destroy($id);
+            $product->delete();
+        });
+
+        $message = $result ? 'Удаление не произошло':$product->name;
+
+        if ($request->ajax()) {
+            return $message;
+        }
+
+        return back()->with('message', $message);
     }
 
     /**
@@ -468,7 +501,6 @@ class ProductsController extends Controller
      */
     public function saveOptionValue()
     {
-        //dd($_POST);
         //save into product_option
         $count = 0;
         foreach ($_POST as $key => $val) {

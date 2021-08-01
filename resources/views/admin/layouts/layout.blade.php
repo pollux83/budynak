@@ -368,7 +368,6 @@
                 val_url = urlArr.join('/');
                 val_url += id;
             } else val_url += '/' + id;
-            alert(val_url);
             name = parent[0].children[1].innerText;
             confirm_var = confirm('Delete ' + name + '?');//запрашиваем подтверждение на удаление
             if (!confirm_var) return;
@@ -380,9 +379,7 @@
                     'id': id
                 }, //не забываем передавать токен, или будет ошибка.
                 success: function (value) {
-                    if(value == 'Remove')  {
-                        parent.remove();// удаляем строчку tr из таблицы
-                    }
+                    parent.remove();// удаляем строчку tr из таблицы
                     alert(value);
                 },
                 error: function (e) {
@@ -391,7 +388,28 @@
                 }
             });
         });
-    });</script>
+    });
+    let deleteAjaxObj = {
+        deleteAjax: function () {
+            let parent = $(this).parent();
+            confirm_var = confirm('Delete?');//запрашиваем подтверждение на удаление
+            if (!confirm_var) return false;
+            $.ajax({
+                url: this.href, //url куда мы передаем delete запрос
+                method: 'DELETE',
+                data: {'_token': "{{csrf_token()}}"}, //не забываем передавать токен, или будет ошибка.
+                success: function (msg) {
+                    parent.remove(); // удаляем строчку tr из таблицы
+                    alert('Record ' + msg + ' destroy');
+                },
+                error: function (msg) {
+                    console.log(msg); // в консоле  отображаем информацию об ошибки, если они есть
+                }
+            });
+            return false;
+        }
+    }
+</script>
 <script>
     //create fields for options and it values
     setNameClass();
@@ -501,12 +519,15 @@
     	input.parentElement.nextElementSibling.src = input.value;
     }
 	jQuery(document).ready(function($) {
-    $('.iframe-btn').fancybox({
-        'width': 880,
-        'height': 570,
-        'type': 'iframe',
-        'autoScale': false
-    });
+	    if($('.iframe-btn').length){
+            $('.iframe-btn').fancybox({
+                'width': 880,
+                'height': 570,
+                'type': 'iframe',
+                'autoScale': false
+            });
+        }
+
 
     function OnMessage(e) {
         var event = e.originalEvent;
