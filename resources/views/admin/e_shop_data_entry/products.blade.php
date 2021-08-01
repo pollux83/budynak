@@ -113,21 +113,32 @@
                                         'label' => '', // Optional
                                         'class' => Itstructure\GridView\Columns\ActionColumn::class, // Required
                                         'actionTypes' => [ // Required
-                                            'view' => function ($data) {
+                                            /*'view' => function ($data) {
                                                 return '/admin/products/' . $data->id . '_copy/edit';
-                                            }, 'edit' => function ($data) {
+                                            },*/
+                                            /*'edit' => function ($data) {
                                                 return '/admin/products/' . $data->id . '/edit';
-                                            },
+                                            },*/
                                             [
-                                                'class' => Itstructure\GridView\Actions\Delete::class, // Required
+                                                /** copy button */
+                                                'class' => Itstructure\GridView\Actions\View::class, // Required
                                                 'url' => function ($data) { // Optional
-                                                    return '#';//'/admin/pages/' . $data->id . '/delete';
+                                                    return '/admin/products/' . $data->id . '_copy/edit';
                                                 },
                                                 'htmlAttributes' => [ // Optional
                                                     'target' => '_blank',
-                                                    'class' => 'del',
-                                                    'style' => 'color: yellow; font-size: 16px;',
-                                                    'onclick' => 'return window.confirm(" Удалить?"); '
+                                                    'style' => 'color: white; font-size: 10px;',
+                                                ]
+                                            ],
+                                            [
+                                                'class' => Itstructure\GridView\Actions\Delete::class, // Required
+                                                'url' => function ($data) { // Optional
+                                                    return '/admin/product/' . $data->id . '/delete';
+                                                },
+                                                'htmlAttributes' => [ // Optional
+                                                    //'target' => '_blank',
+                                                    'style' => 'color: white; font-size: 10px;',
+                                                    'onclick' => 'return confirm("Удалить?")',
                                                 ]
                                             ]
                                         ]
@@ -138,44 +149,44 @@
                             ];
                             ?>
                             @gridView($gridData)
-                        <!--                            <table class="table table-striped responsive-utilities jambo_table">
-                                <thead>
-                                <tr class="headings">
-                                    <th>ID</th>
-                                    <th>Name</th>
-                                    <th>Title</th>
-                                    <th>On/Off</th>
-                                    <th>Price</th>
-                                    <th class=" no-link last"><span class="nobr">Action</span>
-                                    </th>
-                                </tr>
-                                </thead>
+{{--                                                  <table class="table table-striped responsive-utilities jambo_table">--}}
+{{--                                <thead>--}}
+{{--                                <tr class="headings">--}}
+{{--                                    <th>ID</th>--}}
+{{--                                    <th>Name</th>--}}
+{{--                                    <th>Title</th>--}}
+{{--                                    <th>On/Off</th>--}}
+{{--                                    <th>Price</th>--}}
+{{--                                    <th class=" no-link last"><span class="nobr">Action</span>--}}
+{{--                                    </th>--}}
+{{--                                </tr>--}}
+{{--                                </thead>--}}
 
-                                <tbody>
-                                @foreach($products as $product)
-                            @if($product->id %2 == 0)
-                                <tr class="even pointer">
-@else
-                                <tr class="odd pointer">
-@endif
-                                    <td class=" ">{{ $product->id }}</td>
-                                            <td class=" ">{{ $product->name }}</td>
-                                            <td class=" "><input type="text" class="form-control" name="title" value="@if(isset($product->title)){{ $product->title }}@else null @endif"><button onclick="changeTitle(this);">Update</button></td>
-                                            @if($product->status == 1)
-                                <td class=" ">On</td>
-@else
-                                <td class=" ">Off</td>
-@endif
-                                    <td class=" "><input type="number" step="any" min="0" name="price" value="{{ $product->price }}"><button onclick="changePrice(this);">Update</button></td>
-                                            <td class=" last"><a href="{{ secure_url('admin/products/'.$product->id.'_copy/edit') }}">Copy</a>
-                                                | <a href="{{ secure_asset('admin/products/'.$product->id.'/edit') }}">Edit</a>
-                                                | <span class="del">Delete</span></td>
-                                        </tr>
-                                        @endforeach
-                                </tbody>
-                            </table>
+{{--                                <tbody>--}}
+{{--                                @foreach($products as $product)--}}
+{{--                            @if($product->id %2 == 0)--}}
+{{--                                <tr class="even pointer">--}}
+{{--@else--}}
+{{--                                <tr class="odd pointer">--}}
+{{--@endif--}}
+{{--                                    <td class=" ">{{ $product->id }}</td>--}}
+{{--                                            <td class=" ">{{ $product->name }}</td>--}}
+{{--                                            <td class=" "><input type="text" class="form-control" name="title" value="@if(isset($product->title)){{ $product->title }}@else null @endif"><button onclick="changeTitle(this);">Update</button></td>--}}
+{{--                                            @if($product->status == 1)--}}
+{{--                                <td class=" ">On</td>--}}
+{{--@else--}}
+{{--                                <td class=" ">Off</td>--}}
+{{--@endif--}}
+{{--                                    <td class=" "><input type="number" step="any" min="0" name="price" value="{{ $product->price }}"><button onclick="changePrice(this);">Update</button></td>--}}
+{{--                                            <td class=" last"><a href="{{ secure_url('admin/products/'.$product->id.'_copy/edit') }}">Copy</a>--}}
+{{--                                                | <a href="{{ secure_asset('admin/products/'.$product->id.'/edit') }}">Edit</a>--}}
+{{--                                                | <span class="del">Delete</span></td>--}}
+{{--                                        </tr>--}}
+{{--                                        @endforeach--}}
+{{--                                </tbody>--}}
+{{--                            </table>--}}
 
-                            {{ $products->links() }}-->
+                            {{ $products->links() }}
 
                         </div>
                     </div>
